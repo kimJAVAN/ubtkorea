@@ -1,22 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Test from "../components/test.jsx";
-
-
+import {Route, Routes } from "react-router-dom";
+import Test from "../components/Test.jsx";
 
 
 
 function MainRouter() {
   return (
-
       <Routes>
-        <Route path={'main'} element={<Test />}></Route>
-
-
-
+        <Route index element={<Test />}></Route>
       </Routes>
 
   );
 }
 
-export default AppRouter;
+export default MainRouter;
