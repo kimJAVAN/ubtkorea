@@ -1,8 +1,8 @@
 // api.js
 import axios from "axios";
 
-export const baseURL = "";
-// export const baseURL = ''
+// export const baseURL = "http://www.sample.co.kr";
+export const baseURL = 'http://localhost:7999';
 const api = axios.create({
   baseURL: baseURL,
 });
