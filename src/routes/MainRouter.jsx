@@ -4,10 +4,14 @@ import Test from "../components/Test.jsx";
 
 
 
-function MainRouter() {
+function MainRouter(props) {
+  const {
+    windowWidth
+  } = props
+
   return (
       <Routes>
-        <Route index element={<Test />}></Route>
+        <Route index element={<Test windowWidth={windowWidth} />}></Route>
       </Routes>
 
   );
