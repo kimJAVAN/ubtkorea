@@ -3,7 +3,10 @@ import "./test-main-section.css";
 // import gsap from "gsap";
 // import {ScrollTrigger} from 'gsap/scrollTrigger';
 
-export default function TestMainSection() {
+export default function TestMainSection(props) {
+    const {
+        windowWidth
+    } = props
 
     // gsap.registerPlugin(ScrollTrigger);
 
