@@ -1,29 +1,19 @@
-import React, { useState } from 'react'
-
+import React, {useEffect} from 'react'
+import {Outlet} from "react-router-dom";
+import './assets/css/reset.css';
+import {smoothScroll} from "./components/SmoothScroll/SmoothScroll.js";
 
 function App() {
-  const [count, setCount] = useState(0)
+  // 스무스 스크롤
+  useEffect(() => {
+    smoothScroll();
+  }, []);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          aa11111
-        </a>
-
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main id={'main'}>
+        <Outlet/>
+      </main>
     </>
   )
 }
