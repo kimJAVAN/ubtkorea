@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.earth-bg-section{
+    width: 100%;
+    background: #18191B;
+    position: relative;
+    color: white;
+
+}
+.earth-bg-section .earth-3d-sticky-wrap{
+    width: 100%;
+    height: 650vh;
+    position: relative;
+}
+.earth-bg-section .earth-sticky-inner{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+}
+
+/*앞단*/
+.earth-bg-section .earth-front-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.earth-bg-section .earth-front-text-gra{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+.earth-bg-section .earth-front-text-div{
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    left : -80%;
+    transition: all .5s ease-in-out;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -4px;
+    font-size: 200px;
+    line-height: 170px;
+    color: #BACC00;
+}
+.earth-bg-section .font-inner-span{
+    width: 200px;
+    display: inline-block;
+}
+.earth-bg-section .earth-gra-bg{
+    width: 2000px;
+    position: absolute;
+    aspect-ratio: 1/1;
+    /*height: 2000px;*/
+    left: -120%;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all .5s ease-in-out;
+    background: rgb(0,20,18);
+    background: -moz-radial-gradient(circle, rgba(0,20,18,0) 0%, rgba(2,48,51,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(0,20,18,0) 0%, rgba(2,48,51,1) 100%);
+    background: radial-gradient(circle, rgba(0,20,18,0) 0%, rgba(2,48,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001412",endColorstr="#023033",GradientType=1);
+}
+
+.earth-bg-section .earth-blur-box{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    width: fit-content;
+    color: #BACC00;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.2);
+    border-radius: 40px;
+    font-weight: bold;
+    backdrop-filter: blur(40px);
+    padding: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 65px;
+    line-height: 65px;
+    letter-spacing: 2px;
+    transition: all .5s ease-in-out;
+    top: 80%;
+    opacity: 0;
+    text-align: center;
+}
+.earth-bg-section .earth-blur-box.first{
+    z-index: 5;
+}
+.earth-bg-section .earth-blur-box.two{
+    z-index: 20;
+}
+
+/*제일 마지막 상세 페이지*/
+.earth-bg-section .earth-world-left-top-wrap{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 30;
+}
+.earth-bg-section .earth-left-top-title{
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: 700;
+    height: 48px;
+    color: #fff;
+    line-height: 50px;
+}
+.earth-bg-section .earth-left-top-title > p{
+    position: relative;
+    top: 48px;
+    transition: all .5s ease-in-out;
+}
+.earth-bg-section .left-top-bottom-text{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+
+.earth-bg-section .left-bottom-scroll-div{
+    position: absolute;
+    z-index: 20;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    padding: 30px;
+    min-width: 385px;
+    transition: all .5s ease-in-out;
+    scale: 0.9;
+    opacity: 0;
+    left: 100px;
+    top: 45%;
+}
+.earth-bg-section .left-bottom-title-wrap{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 0px;
+    gap: 10px;
+}
+.earth-bg-section .left-bottom-scroll-icon-wrap{
+    color: #BACC00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.earth-bg-section .earth-scroll-wrapper{
+    padding: 10px 0px;
+}
+.earth-bg-section .scrolled-unit-div{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    cursor: pointer;
+}
+.earth-bg-section .scrolled-unit-div>p{
+    transition: all .3s ease-in-out;
+}
+.earth-bg-section .scrolled-unit-div.active>p{
+    color: #BACC00;
+    font-weight: 600;
+}
+
+.earth-bg-section .right-more-view-wrapper{
+    position: absolute;
+    top: 50%;
+    transform : translateY(-50%);
+    z-index: 20;
+    width: 400px;
+    right: 100px;
+    scale: 0.9;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.earth-bg-section .right-point-text{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.earth-bg-section .right-bottom-icon-and-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: -40px;
+    margin-bottom: 15px;
+}
+.earth-bg-section .right-bottom-text{
+    font-size: 42px;
+    color: #BACC00;
+    font-weight: 600;
+}
+.earth-bg-section .right-bottom-icon-wrap{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earth-bg-section .right-bottom-icon-wrap > img{
+    width: 50%;
+}
+.earth-bg-section .right-bottom-context{
+    width: 70%;
+    font-size: 16px;
+    line-height: 22px;
+    word-break: keep-all;
+}
+
+
+.earth-bg-section .earth-count-name{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+    color: #eafb3e;
+    font-size: 42px;
+    font-weight: bold;
+}
+.earth-bg-section .earth-count-marker-wrap{
+    position: absolute;
+    z-index: 30;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out .6s ;
+
+    animation: scaleOne 1s ease-in-out forwards;
+}
+@keyframes scaleOne {
+    0%{
+        transform: translate(-50%, -50%) scale(3);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+.earth-bg-section .earth-count-marker{
+    position: absolute;
+    border: 2px solid #eafb3e;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+.earth-bg-section .earth-count-marker:nth-of-type(2){
+    position: absolute;
+    border: 1px solid #eafb3e;
+    width: 10px;
+    height: 10px;
+    animation: repletCircle 1.2s ease-in-out infinite;
+}
+@keyframes repletCircle {
+    0%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+    40%{
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+    50%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+    70%{
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+    80%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+    90%{
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+.earth-bg-section .earth-count-marker-blur{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(10px);
+    background: #eafb3e;
+    animation: blurEffect 2s ease-in-out infinite;
+}
+@keyframes blurEffect {
+    0%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50%{
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/*지구*/
+.earth-bg-section .earth-bg-3d-wrapper{
+    width: 100%;
+    height: 100vh;
+    top : 0;
+    /*top: 400px;*/
+    /*left: -600px;*/
+    position: absolute;
+    z-index: 10;
+    transition: all .5s ease-in-out;
+}
+
+.earth-bg-section .earth-bg-3d-wrapper canvas {
+    transition: all .5s cubic-bezier(.12,.93,.8,.92);
+}
+

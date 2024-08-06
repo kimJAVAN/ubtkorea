@@ -1,0 +1,128 @@
+.progress-slide-section {
+    width: 100%;
+    height: 100%;
+    padding: 100px 95px;
+    /*background-color: #E4E6EB;*/
+    background: rgb(12,36,39);
+    background: -moz-linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    background: linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2427",endColorstr="#0c2427",GradientType=1);
+
+}
+
+.progress-slide-section .progress-slide-container {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+}
+
+.progress-slide-section .progress-slide-swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+.progress-slide-section .progress-slide-swiper .progress-slide-bgWrap .progress-slide-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+    transition: transform .5s ease-in-out;
+    filter: brightness(0.6);
+}
+
+.progress-slide-section .progress-slide-swiper .progress-slide-bgWrap .progress-slide-img:hover {
+    transform: scale(1.1);
+}
+
+.progress-slide-section .progress-slide-txtBox {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    max-width: 32rem;
+    min-height: 300px;
+    background-color: #E4E6EB;
+    padding: 40px;
+    border-radius: 13px;
+    color: #17191b;
+}
+
+.progress-slide-section .progress-slide-txtBox .progress-slide-txtWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progress-slide-section .progress-slide-txtBox .progress-slide-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.progress-slide-section .progress-slide-txtBox .progress-slide-content {
+    font-size: 20px;
+}
+
+.progress-slide-section .slider__dots {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.progress-slide-section .dots__item {
+    width: 60px;
+    height: 4px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.progress-slide-section .dots__item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.progress-slide-section .dots__item .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.progress-slide-section .dots__item:hover .background {
+    opacity: 1;
+}
+
+.progress-slide-section .dots__item .background__bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+}
+
+.progress-slide-section .dots__item .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform-origin: left;
+    transform: scaleX(0);
+    z-index: 2;
+}
+

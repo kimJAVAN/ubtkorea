@@ -1,0 +1,100 @@
+.notice-section {
+    width: 100%;
+    height: 100%;
+    padding: 100px 95px;
+    background-color: #E4E6EB;
+}
+
+.notice-section .notice-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.notice-section .notice-container .notice-title-wrap {
+    width: 40%;
+    /*max-width: 400px;*/
+    display: flex;
+    flex-direction: column;
+    color: #17191b;
+    padding-top: 34px;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-title-sub {
+    font-size: 14px;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-title-title {
+    font-size: 50px;
+    font-weight: 700;
+    height: 48px;
+    color: #222;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-title-content {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A0A5AB;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-contact-btn {
+    width: fit-content;
+    padding: 14px 24px;
+    background-color: #c6c8d0;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-contact-btn a {
+    display: flex;
+    align-items: center;
+    color: #54565a;
+    gap: 20px;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-contact-btn:hover {
+    background-color: #28292a;
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-contact-btn:hover svg {
+    animation: moveRightLeft 0.3s ease;
+}
+
+@keyframes moveRightLeft {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+.notice-section .notice-container .notice-title-wrap .notice-contact-btn:hover a {
+    color: #fff;
+}
+
+
+.notice-section .notice-container .notice-content-wrap {
+    width: 60%;
+    /*max-width: 800px;*/
+}
+
+.notice-section .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item {
+    padding: 32px 24px;
+    font-size: 24px;
+    border-bottom: 1px solid #b5aba1;
+    cursor: pointer;
+}
+
+.notice-section .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item:hover {
+    background-color: #c6c8d0;
+}
+
+.notice-section .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item a {
+    display: flex;
+    gap: 20px;
+    color: #000;
+}

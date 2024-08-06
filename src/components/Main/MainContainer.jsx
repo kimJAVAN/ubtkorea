@@ -1,5 +1,11 @@
 import React from "react";
-import TestMainSection from "./test-main-section/TestMainSection.jsx";
+import BsnSwiperMainSection2 from "./BsnSwiperMainSection2/BsnSwiperMainSection2.jsx";
+import EarthBgSection from "./EarthBgSection/EarthBgSection.jsx";
+import HighLightsSection from "./HighlightsSection/HighLightsSection.jsx";
+import ProgressSlideSection from "./ProgressSlideSection/ProgressSlideSection.jsx";
+import LineMovingSection from "./LineMovingSection/LineMovingSection.jsx";
+import NewsBoardSection from "./NewsBoardSection/NewsBoardSection.jsx";
+import NoticeSection from "./NoticeSection/NoticeSection.jsx";
 
 export default function MainContainer(props) {
     const {
@@ -8,19 +14,13 @@ export default function MainContainer(props) {
 
     return (
         <>
-            {/*<TestMainSection />*/}
-ddd
-            {windowWidth > 768 ? (
-                <>
-                    {/* PC 컴포넌트 */}
-                </>
-
-            ) : (
-                <>
-                    {/* 모바일 컴포넌트 */}
-                </>
-            )
-            }
+            <BsnSwiperMainSection2/>
+            <EarthBgSection/>
+            <HighLightsSection/>
+            <ProgressSlideSection/>
+            <LineMovingSection/>
+            <NewsBoardSection/>
+            <NoticeSection/>
         </>
 
     )
