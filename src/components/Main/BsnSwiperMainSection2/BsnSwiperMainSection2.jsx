@@ -10,6 +10,8 @@ const BsnSwiperMainSection2 = () => {
     const mainSwiperData =[
         {imgUrl : '/images/Main/bsn-swiperMain-section/1.jpg',},
         {imgUrl : '/images/Main/bsn-swiperMain-section/2.jpg',},
+        {imgUrl : '/images/Main/bsn-swiperMain-section/3.jpg',},
+        // {imgUrl : '/images/Main/bsn-swiperMain-section/2.jpg',},
     ]
     return (
         <>
@@ -29,7 +31,16 @@ const BsnSwiperMainSection2 = () => {
                         pagination={{
                             clickable: true,
                             renderBullet: (index, className) => {
-                                return `<span class="${className}"><img src="/images/Main/bsn-swiperMain-section/${index + 1}.jpg" alt="pagination-icon"/></span>`;
+                                // Display only the first two pagination bullets
+                                return `<span class="${className} "><img src="/images/Main/bsn-swiperMain-section/${index + 1}.jpg" alt="pagination-icon"/></span>`;
+
+                                // if (index < 2) {
+                                //     const bulletIndex = (index % 2); // Toggle between 0 and 1
+                                //     console.log(bulletIndex)
+                                //     return `<span class="${className} ${bulletIndex === 0 ? 'active' : ''}"><img src="/images/Main/bsn-swiperMain-section/${bulletIndex + 1}.jpg" alt="pagination-icon"/></span>`;
+                                // } else {
+                                //     return '';
+                                // }
                             }
                         }}
                         modules={[Autoplay, Controller,Parallax,Pagination]}
