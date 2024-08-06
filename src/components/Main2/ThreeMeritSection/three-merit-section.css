@@ -26,7 +26,11 @@
     /*border-radius: 10px;*/
     transition: all 2s cubic-bezier(.22, 1, .36, 1);
 }
-
+.three-merit-section .three-merit-section-content .vi{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .three-merit-section .three-merit-section-content:hover {
     width: 40%;
     overflow: hidden;
@@ -55,9 +59,14 @@
     width: 400px;
     height: 400px;
     object-fit: contain;
+    transition: all .5s ease;
 }
-
-/*.three-merit-section .three-merit-section-content .three-merit-section-content-img-wrap img,*/
+.three-merit-section .three-merit-section-content.active .three-merit-section-content-img-wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    /*.three-merit-section .three-merit-section-content .three-merit-section-content-img-wrap img,*/
 .three-merit-section .three-merit-section-content .three-merit-section-content-img-wrap video {
     width: 100%;
     height: 100%;

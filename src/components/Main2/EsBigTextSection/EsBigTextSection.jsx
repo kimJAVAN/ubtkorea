@@ -227,7 +227,7 @@ export default function EsBigTextSection() {
                         <div className={`esp2-review-cardwrap ${active === true ? 'active': '' }`}>
                             {reviewData && reviewData.map((data,index)=>(
                                 <div key={index} className={'esp2-review-card'} ref={el => cardRefs.current[index] = el}>
-                                    <video className={'esp2-review-cardimg front'} src={data.mainImg} muted playsInline loop/>
+                                    <video className={'esp2-review-cardimg front'} src={data.mainImg} muted playsInline />
                                     <div className={'esp2-review-cardimg back'}>
                                         <div className={`esp2-review-boxes`}>
                                             <div className={`esp2-review-boxline`}>
