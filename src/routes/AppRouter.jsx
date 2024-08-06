@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import App from "../App.jsx";
 import MainRouter from "./MainRouter.jsx";
 import MainContainer from "../components/Main/MainContainer.jsx";
-
+import Main2Container from "../components/Main2/Main2Container.jsx";
 function AppRouter() {
   // 디바이스 width 감지 - PC 모바일 감지용
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -27,6 +27,7 @@ function AppRouter() {
         <Route path="/*" element={<App />}>
           <Route index element={<MainContainer />} />
           <Route path={'test/*'} element={<MainRouter />} />
+          <Route path={'2/*'} element={<Main2Container />} />
         </Route>
       </Routes>
     </Router>

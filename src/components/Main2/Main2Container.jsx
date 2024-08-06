@@ -1,7 +1,7 @@
 import React from "react";
 import TestMainSection from "./test-main-section/TestMainSection.jsx";
 
-export default function MainContainer(props) {
+export default function Main2Container(props) {
     const {
         windowWidth
     } = props
