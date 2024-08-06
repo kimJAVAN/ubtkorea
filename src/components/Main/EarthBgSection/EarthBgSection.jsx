@@ -13,29 +13,22 @@ export default function EarthBgSection() {
     const moreTextArray = [
         {
             index : 1,
-            main : '세계 최고 SW 기술 보유',
-            context : '세계 최고 수준 Active Align,\n' +
-                'Intrinsic Calibration 및 EOL 검사\n' +
-                '알고리즘 보유'
+            main : 'OFF-LINE',
+            context : '프렌차이즈 건설업으로 피자먹다, 카페 보스,\n' +
+            '에그박스, 꿀마니 닭강정 등이 있습니다.'
         },
         {
             index : 2,
-            main : '모션 제어 알고리즘 보유',
-            context : '고속/고정밀/다축/고생산성\n' +
-                '물류 핸들러(모션) 제어 알고리즘 보유'
+            main : 'ON-LINE',
+            context : '복지/ 폐쇄물 온라인 마켓으로 네이버,\n' +
+                '쿠팡, 11번가, 현대백화점, 기업은행 임직원몰 등이 있습니다.'
         },
         {
             index : 3,
-            main : '핵심 컴포넌트 내재화',
-            context : 'Image Grabber, LED 광원, 산업용 PC,\n' +
-                '모션 제어기 등의 자동화 핵심 컴포넌트 보유'
-        },
-        {
-            index : 4,
-            main : '글로벌 고객 지사 운영',
-            context : '다수의 양산라인 운영 이력과\n' +
-                '타이완, 중국, 미국, 인도 해외지사 운영으로\n' +
-                '안정적인 품질 및 생산성 확보'
+            main : 'REFURBISH',
+            context : '리퍼, 오프라인 매장 수출라인 보유함으로,\n' +
+            '리퍼 업체 리퍼프렌즈 및 해외 업체 수출 관련하여,\n' +
+            '진행하고 있습니다.'
         },
     ]
 
@@ -258,8 +251,8 @@ export default function EarthBgSection() {
                             <div className={'earth-front-text-div'}>
                                 <p>
                                     global<br/>
-                                    technology<br/>
-                                    furonteer
+                                    DISTRIBUTION<br/>
+                                    UBT KOREA
                                 </p>
                             </div>
                             <div className={'earth-gra-bg'}></div>
@@ -273,22 +266,22 @@ export default function EarthBgSection() {
                             </div>
                             <div className={'earth-blur-box two'}>
                                 <p className={'earth-blur-box-text'}>
-                                    FUTURE ADVANCEMENTS <br/>
-                                    IN TECHNOLOGY
+                                    UNIDENTIFIED . BEAUTIFUL . THINGS <br/>
+                                    UBT KOREA
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div className={'earth-world-left-top-wrap'}>
                                 <div className={'earth-left-top-title'}>
-                                    <p>GLOBAL TECHNOLOGY</p>
+                                    <p>GLOBAL DISTRIBUTION</p>
                                 </div>
                                 <div className={'earth-left-top-title'}>
-                                    <p>FURONTEER</p>
+                                    <p>UBT KOREA</p>
                                 </div>
                                 <div className={'left-top-bottom-text'}>
-                                    Pioneer of Future Frontier with<br />
-                                    Cutting-edge Technology
+                                    The Leading Distribution Partner Built <br/>
+                                    on Growth and Trust
                                 </div>
                             </div>
                             <div className={'left-bottom-scroll-div'}>
@@ -305,7 +298,7 @@ export default function EarthBgSection() {
                                             className={`scrolled-unit-div ${selectedIndex === item.index ? 'active' : ''}`}
                                             onClick={() => handleScrollItemClick(item.index)}
                                         >
-                                            <p>Point 0{item.index}</p>
+                                            <p>CHANNEL 0{item.index}</p>
                                             <p>{item.main}</p>
                                         </div>
                                     ))}

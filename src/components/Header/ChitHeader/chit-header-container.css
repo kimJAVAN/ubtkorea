@@ -42,6 +42,7 @@
 .chit-header .chit-header-container .chit-header-dato-logo {
     height: 100%;
     cursor: pointer;
+    width: 150px;
 }
 
 .chit-header .chit-header-container .chit-header-dato-logo .dato-logo-text {

@@ -93,22 +93,22 @@ export default function NewsBoardSection(props) {
         {
             img: "images/Main/news-board-section/1.jpg",
             title: "세계 최고의 기술력으로 시장 공략",
-            content: "퓨런티어는 세계 최고의 자율주행 기술력을<br />바탕으로 글로벌 시장 공략에 나섰다고 발표했다.<br />회사 측은 혁신적인 기술로 자율주행 산업을"
+            content: "글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다.<br />글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다."
         },
         {
             img: "images/Main/news-board-section/2.jpg",
-            title: "2024 퓨런티어 초청행사 개최",
-            content: "퓨런티어는 주요 고객사를 초청하여 신제품 발표 및<br />네트워킹 행사를 성황리에 개최했다고 밝혔다.<br />이번 행사는 고객사와의 긴밀한 협력을 강화하고"
+            title: "2024 UBT KOREA 초청행사 개최",
+            content: "글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다.<br />글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다."
         },
         {
             img: "images/Main/news-board-section/3.jpg",
-            title: "퓨런티어 글로벌 시장 확장",
-            content: "퓨런티어는 글로벌 시장 확장을 위해 유럽과<br />아시아 지역에 신규 지사를 설립하며,<br />현지 맞춤형 제품을 출시할 계획이라고 밝혔다."
+            title: "UBT KOREA 글로벌 시장 확장",
+            content: "글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다.<br />글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다."
         },
         {
             img: "images/Main/news-board-section/4.jpg",
             title: "협력사 동반성장 프로젝트 ",
-            content: "퓨런티어는 최근 협력사 동반성장 프로젝트를 발표하며,<br />중소기업과의 협력을 통해 상생을 도모하겠다고 밝혔다.<br />이 프로젝트는 기술 지원, 인력 교류, 공동 마케팅 등을"
+            content: "글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다.<br />글로벌한 유통기업 UBT KOREA의 소식이 <br> 좀 더 구체적으로 들어갈 예정입니다."
         }
     ];
 
@@ -125,8 +125,8 @@ export default function NewsBoardSection(props) {
         <>
             <section className="news-board-section" ref={sectionRef}>
                 <div className="news-board-title-wrap" ref={titleWrapRef}>
-                    <p className="news-board-title" ref={titleRef}>Furonteer News</p>
-                    <p className="news-board-title-content" ref={titleContentRef}>글로벌한 기업 퓨런티어의 소식을 확인해보세요</p>
+                    <p className="news-board-title" ref={titleRef}>UBT KOREA NEWS</p>
+                    <p className="news-board-title-content" ref={titleContentRef}>글로벌한 유통기업 UBT KOREA 소식을 확인해보세요</p>
                 </div>
                 <div className="news-board-slide-container" ref={slideContainerRef}>
                     <Swiper
@@ -161,7 +161,7 @@ export default function NewsBoardSection(props) {
                         <SwiperSlide style={{width: 'auto'}}>
                         <div className="news-board-slide-wrap last">
                                 <div className="news-board-slide-txtWrap">
-                                    <p className="news-board-slide-txt">글로벌 기업 퓨런티어의 <br />
+                                    <p className="news-board-slide-txt">글로벌 유통 UBT KOREA의 <br/>
                                         더 많은 소식을 확인해보세요</p>
                                     <div className="news-board-slide-btnWrap">
                                         <a href="" className="news-board-slide-btn">

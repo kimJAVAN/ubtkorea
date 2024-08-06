@@ -101,7 +101,7 @@ export default function ChitHeader() {
                 <nav className="chit-header-nav pc-only">
                     <a href="/main2">
                     <div className="chit-header-dato-logo">
-                        <img src="/Header/furonteer-header/logo-w.png" alt="" className="chit-header-dato-img" />
+                        <img src="images/Header/chit-header/logo.png" alt="" className="chit-header-dato-img" />
                         {/*<p className={`dato-logo-text`}>DATO</p>*/}
                     </div>
                     </a>
@@ -199,7 +199,7 @@ export default function ChitHeader() {
                                             className="header-nav-unit"
                                             ref={(el) => (boxRefs.current[0] = el)}
                                         >
-                                            회사소개
+                                            ABOUT
                                         </NavLink>
                                     </div>
                                 </li>
@@ -210,7 +210,7 @@ export default function ChitHeader() {
                                             className="header-nav-unit"
                                             ref={(el) => (boxRefs.current[1] = el)}
                                         >
-                                            사업영역
+                                            CATEGORY
                                         </NavLink>
                                     </div>
                                 </li>
@@ -222,7 +222,7 @@ export default function ChitHeader() {
                                                 className="header-nav-unit"
                                                 ref={(el) => (boxRefs.current[2] = el)}
                                             >
-                                                투자정보
+                                                NEWS
                                             </NavLink>
                                         </div>
                                     </div>
@@ -235,7 +235,7 @@ export default function ChitHeader() {
                                                 className="header-nav-unit"
                                                 ref={(el) => (boxRefs.current[3] = el)}
                                             >
-                                                인재채용
+                                                CONTACT
                                             </NavLink>
                                         </div>
                                     </div>

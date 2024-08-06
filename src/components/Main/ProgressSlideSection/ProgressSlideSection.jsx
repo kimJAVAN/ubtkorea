@@ -24,18 +24,21 @@ export default function ProgressSlideSection(props) {
     const slides = [
         {
             img: "images/Main/progress-slide-section/1.jpg",
-            title: "독보적인 공정 솔루션 보유",
-            content: "독보적 원천 기술력 확보와 국내 최초 & 최고 기술로 국산화를 선도하였으며, 주요 Reference로 확인된 기술 신뢰성 및 안정성을 가진 독보적 원천 기술력을 확보하였습니다."
+            title: "글로벌 확장성을 갖춘 폭넓은 네트워크",
+            content: "추후 이 곳에 UBT KOREA 기업만의 유통 구조 및 서비스 특장점\n" +
+                "내용이 더 구체적이게 녹여질 예정입니다."
         },
         {
             img: "images/Main/progress-slide-section/2.jpg",
-            title: "자율주행 산업 수혜",
-            content: "ADAS 고도화 및 대중화로 수요와 Application이 급증하였고, 유수 라이다 제조사들과 기술협력을 전개하였습니다. TOF/라이다 등 자율 주행 핵심센서를 제조합니다."
+            title: "고객 중심의 신뢰할 수 있는 서비스 제공",
+            content: "추후 이 곳에 UBT KOREA 기업만의 유통 구조 및 서비스 특장점\n" +
+                "내용이 더 구체적이게 녹여질 예정입니다."
         },
         {
             img: "images/Main/progress-slide-section/3.jpg",
-            title: "글로벌 밸류체인 확보",
-            content: "미래 핵심 기술 업체 중심의 밸류체인을 확보하고 자율주행솔루션과 완성차 OEM 등 글로벌 기업들과 협업을 진행하며 미래 성장 기술을 선도하고있습니다."
+            title: "다양한 채널을 통한 편리한 쇼핑 경험",
+            content: "추후 이 곳에 UBT KOREA 기업만의 유통 구조 및 서비스 특장점\n" +
+                "내용이 더 구체적이게 녹여질 예정입니다."
         },
     ];
 

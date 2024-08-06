@@ -26,7 +26,7 @@ export default function EunoFooter() {
 
             <div className="euno-footer-title">
                 <div className="footer-logo-div">
-                    <img src="images/Main/euno-footer/logo-c.png" alt="logo_b"/>
+                    <img src="images/Header/chit-header/logo.png" alt="logo_b"/>
                 </div>
                 <div className="euno-footer-modal">
                     <NavLink to={'/members/termsofuse'}>이용약관</NavLink>
@@ -39,9 +39,9 @@ export default function EunoFooter() {
 
             <div className="euno-footer-info">
                 {/*<span>사업자명: {footerData.company_name}</span>*/}
-                <span>사업자명: 퓨론티어</span>
+                <span>사업자명: UBT KOREA</span>
                 &nbsp; <span>|</span> &nbsp;
-                <span>대표자명: 퓨론티어 </span>
+                <span>대표자명: 홍길동 </span>
                 {/*&nbsp; <span>|</span> &nbsp;*/}
                 {/*<span>팩스: 02-2179-9410 </span>*/}
                 {/*&nbsp; <span>|</span> &nbsp;*/}
@@ -49,11 +49,11 @@ export default function EunoFooter() {
 
                 <span>주소: 서울시 -- </span>
                 &nbsp; <span>|</span> &nbsp;
-                <span>대표전화:010-1234-1234</span>
+                <span>대표전화: 010-1234-1234</span>
                 &nbsp; <span>|</span> &nbsp;
                 <br/>
 
-                <span>사업자등록번호:1234-123-12455</span>
+                <span>사업자등록번호: 1234-123-12455</span>
                 {/* 사업자정보확인모달 */}
                 &nbsp; <span>|</span> &nbsp;
 
@@ -61,7 +61,7 @@ export default function EunoFooter() {
                 <br/>
 
                 <br/>
-                <span>Copyright ONEQ All Rights Reserved.</span>
+                <span>Copyright UBT KOREA All Rights Reserved.</span>
 
             </div>
 

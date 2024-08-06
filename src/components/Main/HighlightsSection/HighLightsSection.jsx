@@ -10,7 +10,7 @@ export default  function HighLightsSection(){
     const hightlightSecRef = useRef(null)
 
     const numberRefs = useRef([]);
-    const targetNumbers = [34, 20, 60, 10]; // 각 요소가 증가할 목표 숫자 값
+    const targetNumbers = [1, 95, 50000, 100]; // 각 요소가 증가할 목표 숫자 값
 
     const titleRef = useRef(null);
     const subRef = useRef(null);
@@ -107,8 +107,8 @@ export default  function HighLightsSection(){
                                 Strength</h2>
                         </div>
                         <div className="highlights-descript-txtWrap" ref={subRef}>
-                            <p>핵심 부품부터 장비 솔루션까지 전 과정 자체 개발을 통해 <br/>
-                                경쟁 우위 확보인 퓨런티어의 차별화를 확인하세요.</p>
+                            <p>혁신하는 품질과 서비스를 제공하는, <br/>
+                                당신의 신뢰할 수 있는 유통 파트너 UBT KOREA</p>
                         </div>
                     </div>
                     <div className="highlights-numbers-wrapper" ref={numberWrapRef}>
@@ -120,7 +120,7 @@ export default  function HighLightsSection(){
                                 </div>
                                 <div className="highlight-number plus">+</div>
                             </div>
-                            <div className="subtitle-medium serif dark">지적 재산권</div>
+                            <div className="subtitle-medium serif dark">연간 매출액</div>
                         </div>
                         <div className="div-vertical-divider"></div>
                         <div className="div-number">
@@ -131,7 +131,7 @@ export default  function HighLightsSection(){
                                 </div>
                                 <div className="highlight-number plus">+</div>
                             </div>
-                            <div className="subtitle-medium serif dark">공정 솔루션</div>
+                            <div className="subtitle-medium serif dark">고객 만족도</div>
                         </div>
                         <div className="div-vertical-divider"></div>
                         <div className="div-number">
@@ -142,7 +142,7 @@ export default  function HighLightsSection(){
                                 </div>
                                 <div className="highlight-number plus">+</div>
                             </div>
-                            <div className="subtitle-medium serif dark">프로젝트</div>
+                            <div className="subtitle-medium serif dark">제품 보유 수량</div>
                         </div>
                         <div className="div-vertical-divider"></div>
                         <div className="div-number">
@@ -153,7 +153,7 @@ export default  function HighLightsSection(){
                                 </div>
                                 <div className="highlight-number plus">+</div>
                             </div>
-                            <div className="subtitle-medium serif dark">핵심 컴포넌트</div>
+                            <div className="subtitle-medium serif dark">국내/해외 등록 업체 수</div>
                         </div>
                     </div>
                 </div>

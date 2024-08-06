@@ -10,8 +10,6 @@ const BsnSwiperMainSection2 = () => {
     const mainSwiperData =[
         {imgUrl : '/images/Main/bsn-swiperMain-section/1.jpg',},
         {imgUrl : '/images/Main/bsn-swiperMain-section/2.jpg',},
-        {imgUrl : '/images/Main/bsn-swiperMain-section/5.png',},
-        {imgUrl : '/images/Main/bsn-swiperMain-section/4.jpg',},
     ]
     return (
         <>
@@ -44,14 +42,13 @@ const BsnSwiperMainSection2 = () => {
                                             <img src={data.imgUrl} alt="main-img"/>
                                         </div>
                                         <div className="bsn-swiperMain-top">
-                                            <p>BSN CONSTRUCTION</p>
-                                            <p className={`bsn-swiperMain-top-flex`}><span>BSN GROUP</span><span>BUILDING</span><span>REMODELING</span></p>
+                                            <p>UBT KOREA</p>
+                                            <p className={`bsn-swiperMain-top-flex`}><span>UNIDENTIFIED</span><span>BEAUTIFUL</span><span>THINGS</span></p>
                                         </div>
                                         <div className="bsn-swiperMain-text">
                                             <p>
-                                                중소형빌딩 전문가 BSN그룹입니다. 우리는 건물을 사용하는 <br/>
-                                                사람들의 감정과 경험을 고려하여 공간을 디자인하고 <br/>
-                                                사용자에게 의미와 기억을 전달합니다.
+                                                더 나은 더 합리적인 유통 전략을 고민하고 <br/>
+                                                제품과 우리의 아름다움을 알려드리겠습니다.
                                             </p>
                                         </div>
                                     </div>
