@@ -266,8 +266,7 @@ export default function EarthBgSection() {
                             </div>
                             <div className={'earth-blur-box two'}>
                                 <p className={'earth-blur-box-text'}>
-                                    UNIDENTIFIED . BEAUTIFUL . THINGS <br/>
-                                    UBT KOREA
+                                    Global Distribution <br/> Leader
                                 </p>
                             </div>
                         </div>

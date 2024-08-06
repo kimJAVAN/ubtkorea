@@ -88,7 +88,8 @@ export default  function HighLightsSection(){
                   ease: "none",
                   snap: { innerText: 1 }, // 정수로 반올림
                   onUpdate: function () {
-                      ref.innerText = Math.round(this.targets()[0].innerText);
+                      const value = Math.round(this.targets()[0].innerText);
+                      ref.innerText = value.toLocaleString(); // 천 단위 쉼표 추가
                   }
               }
             );
