@@ -1,6 +1,6 @@
 import React from "react";
-import TestMainSection from "./test-main-section/TestMainSection.jsx";
-
+// import TestMainSection from "./test-main-section/TestMainSection.jsx";
+import EsMainSection2 from "./EsMainSection2/EsMainSection2.jsx";
 export default function Main2Container(props) {
     const {
         windowWidth
@@ -8,8 +8,7 @@ export default function Main2Container(props) {
 
     return (
         <>
-            {/*<TestMainSection />*/}
-ddd
+            <EsMainSection2 />
             {windowWidth > 768 ? (
                 <>
                     {/* PC 컴포넌트 */}
