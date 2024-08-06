@@ -140,7 +140,7 @@ export default function EsMainSection2() {
         <div className="es-bg-wrap">
           <video
               className={`es-bg-video`}
-              src="/images/Main2/esMain/1.mp4"
+              src="/images/Main2/esMain/main1.mp4"
               muted loop autoPlay playsInline ></video>
           <img className={`es-bg-video`} src="/images/Main2/esMain/card1.jpg" alt="bg-img"/>
         </div>
@@ -199,7 +199,7 @@ export default function EsMainSection2() {
 
           <div className={`es-main-text-wrap`}>
             <p className={`es-main-text`}>
-              S1 프로 로봇청소기는 최첨단 기술과 범접할 수 없는 <br />
+              프로 로봇청소기는 최첨단 기술과 범접할 수 없는 <br />
               편의성과 성능을 결합한 홈클리닝 혁신의 <br />
               정점을 보여줍니다.
             </p>
