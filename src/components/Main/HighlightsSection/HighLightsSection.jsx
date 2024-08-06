@@ -118,7 +118,7 @@ export default  function HighLightsSection(){
                                      ref={(el) => (numberRefs.current[0] = el)}
                                 >0
                                 </div>
-                                <div className="highlight-number plus">+</div>
+                                <div className="highlight-number plus">조원</div>
                             </div>
                             <div className="subtitle-medium serif dark">연간 매출액</div>
                         </div>
@@ -129,7 +129,7 @@ export default  function HighLightsSection(){
                                      ref={(el) => (numberRefs.current[1] = el)}
                                 >0
                                 </div>
-                                <div className="highlight-number plus">+</div>
+                                <div className="highlight-number plus">%</div>
                             </div>
                             <div className="subtitle-medium serif dark">고객 만족도</div>
                         </div>
@@ -140,7 +140,7 @@ export default  function HighLightsSection(){
                                      ref={(el) => (numberRefs.current[2] = el)}
                                 >0
                                 </div>
-                                <div className="highlight-number plus">+</div>
+                                <div className="highlight-number plus">개</div>
                             </div>
                             <div className="subtitle-medium serif dark">제품 보유 수량</div>
                         </div>
@@ -151,7 +151,7 @@ export default  function HighLightsSection(){
                                      ref={(el) => (numberRefs.current[3] = el)}
                                 >0
                                 </div>
-                                <div className="highlight-number plus">+</div>
+                                <div className="highlight-number plus">개</div>
                             </div>
                             <div className="subtitle-medium serif dark">국내/해외 등록 업체 수</div>
                         </div>
