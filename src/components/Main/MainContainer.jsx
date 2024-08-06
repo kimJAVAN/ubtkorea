@@ -6,6 +6,7 @@ import ProgressSlideSection from "./ProgressSlideSection/ProgressSlideSection.js
 import LineMovingSection from "./LineMovingSection/LineMovingSection.jsx";
 import NewsBoardSection from "./NewsBoardSection/NewsBoardSection.jsx";
 import NoticeSection from "./NoticeSection/NoticeSection.jsx";
+import EunoFooter from "./euno-footer/EunoFooter.jsx";
 
 export default function MainContainer(props) {
     const {
@@ -21,6 +22,7 @@ export default function MainContainer(props) {
             <LineMovingSection/>
             <NewsBoardSection/>
             <NoticeSection/>
+            <EunoFooter/>
         </>
 
     )
