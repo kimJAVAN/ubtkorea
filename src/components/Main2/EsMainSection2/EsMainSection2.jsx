@@ -150,8 +150,8 @@ export default function EsMainSection2() {
                   bigFont && "bigFont"
               }`}
           >
-            <span>S1 Pro&nbsp;</span>
-            <span>Omni</span>
+            {/*<span>S1 Pro&nbsp;</span>*/}
+            {/*<span>Omni</span>*/}
           </p>
           <div
               className={`se-main-s1-imgWrap ${imgActive && "active"} ${
@@ -166,29 +166,28 @@ export default function EsMainSection2() {
             />
             <img className={`se-main-s1-img-logo mobile-only`} src="/images/Main2/esMain/logo.png" alt="logo" ref={logoRef}/>
             <div className={`se-main-img-text`} ref={titleRefs[0]}>
-              단순히 진공 청소기에서 멈추는 것이 아닌, <br />
-              미적 우아함과 최첨단 기술이 조화로운 <br />
-              독보적인 스마트 로봇청소기 입니다.
+              전 세계를 하나로 연결하는 유통 솔루션 <br/>
+              글로벌 네트워크와 신뢰할 수 있는 서비스로<br/>
+
+              언제나 고객님의 곁에 있습니다.
             </div>
             <div className={`se-main-img-text img-text2`} ref={titleRefs[1]}>
-              혁신을 현실로 바꾸다. 꿈의 인공지능 로봇 청소기!<br/>
-              우아한 디자인과 최첨단 기술의 조화로 <br/>생활 공간을 현대적인 안식처로 바꿔보세요!
+              혁신적인 기술과 서비스를 통해
+              <br/>
+              미래를 여는 글로벌 유통 파트너 <br/>UBT Korea
             </div>
             <div className={`se-main-img-text img-text3`} ref={titleRefs[2]}>
               <p>
                 <img src="/images/Main2/esMain/icon1.png" alt="icon1" />
-                빠른 매핑 <br />
-                효율적 청소
+                OFF- LINE
               </p>
               <p>
                 <img src="/images/Main2/esMain/icon2.png" alt="icon2" />
-                모든 청소 <br />
-                살균 기능
+                ON- LINE
               </p>
               <p>
                 <img src="/images/Main2/esMain/icon3.png" alt="icon3" />
-                실시간 <br />
-                장애물 인식
+                REFURBISH
               </p>
             </div>
           </div>
@@ -199,16 +198,17 @@ export default function EsMainSection2() {
 
           <div className={`es-main-text-wrap`}>
             <p className={`es-main-text`}>
-              프로 로봇청소기는 최첨단 기술과 범접할 수 없는 <br />
-              편의성과 성능을 결합한 홈클리닝 혁신의 <br />
-              정점을 보여줍니다.
+              글로벌 유통채널 UBT Korea <br/>
+              더 나은 더 합리적인 유통 전략을 고민하고<br/>
+              제품과 우리의 아름다움을 알려드리겠습니다.<br/>
+
             </p>
             <p>TechUtopia 199K subscribers</p>
-            <img
-                className={`es-main-logo-img`}
-                src="/images/Main2/esMain/logo.png"
-                alt="logo-img"
-            />
+            {/*<img*/}
+            {/*    className={`es-main-logo-img`}*/}
+            {/*    src="/images/Main2/esMain/logo.png"*/}
+            {/*    alt="logo-img"*/}
+            {/*/>*/}
           </div>
         </div>
       </div>

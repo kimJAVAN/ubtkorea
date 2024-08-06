@@ -91,24 +91,24 @@ export default function VideoMainStBigSection() {
                 </div>
                 <div className="video-st-big-wrap">
                     <div className="video-st-big-sub-title" ref={el => (opacityRef.current[0] = el)}>
-                        자율 주행 자동차 산업의 장애물 회피 알고리즘 탑재
+                        글로벌 유통 업체의 압도적 차이를 증명합니다.
                     </div>
                     <div className="video-st-big-num-wrap">
                         <div className="video-st-big-num" ref={titleRef}>
                             <div className="video-st-big-num-title">
-                                730일
+                                71조
                             </div>
                             <div className="video-st-big-sub-title">
-                                알고리즘 개발
+                                연간 매출액
                             </div>
                         </div>
 
                         <div className="video-st-big-num" ref={el => (opacityRef.current[1] = el)}>
                             <div className="video-st-big-num-title">
-                                8,000억
+                                100곳
                             </div>
                             <div className="video-st-big-sub-title">
-                                초당 AI 칩 계학
+                                국내/해외 거래처 수
                             </div>
                         </div>
 
@@ -123,9 +123,9 @@ export default function VideoMainStBigSection() {
                     </div>
 
                     <div className="video-st-big-sub-wrap" ref={el => (opacityRef.current[3] = el)}>
-                        <div className="video-st-big-sub-desc">
-                            자체 개발한 알고리즘이 매우 발전하여 LG코드제로는 집 안을 돌아다닐 때 자율 주행 자동차처럼 작동합니다.<br/>장애물을 인식하고, 피하고, 갇히지 않도록 합니다.
-                        </div>
+                        {/*<div className="video-st-big-sub-desc">*/}
+                        {/*    자체 개발한 알고리즘이 매우 발전하여 LG코드제로는 집 안을 돌아다닐 때 자율 주행 자동차처럼 작동합니다.<br/>장애물을 인식하고, 피하고, 갇히지 않도록 합니다.*/}
+                        {/*</div>*/}
                     </div>
 
                 </div>

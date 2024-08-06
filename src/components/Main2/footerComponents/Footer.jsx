@@ -41,27 +41,27 @@ export default function Footer() {
         {/*{footerData &&*/}
             <div className="botem-footer-info">
                 {/*{footerData.company_name}*/}
-                <span>사업자명: </span>
+                <span>사업자명: UBT Korea</span>
                 &nbsp; <span>|</span> &nbsp;
                 {/*{footerData.company_privacy_name}*/}
-                <span>대표자명:  </span>
-                {/*&nbsp; <span>|</span> &nbsp;*/}
-                {/*<span>팩스: 02-2179-9410 </span>*/}
-                {/*&nbsp; <span>|</span> &nbsp;*/}
+                <span>대표자명: 유티비 </span>
+                &nbsp; <span>|</span> &nbsp;
+                <span>팩스: 02-0000-0000 </span>
+                &nbsp; <span>|</span> &nbsp;
                 <br/>
                 {/*{footerData.company_address}*/}
-                <span>주소:  </span>
+                <span>주소:  서울특별시 강남구 </span>
                 &nbsp; <span>|</span> &nbsp;
                 {/*{footerData.company_tel}*/}
-                <span>대표전화: </span>
+                <span>대표전화: 1644-0000</span>
                 &nbsp; <span>|</span> &nbsp;
                 <br/>
                 {/*{footerData.company_biznum}*/}
-                <span>사업자등록번호:</span>
-                {/* 사업자정보확인모달 */}
+                <span>사업자등록번호: </span>
+                02-0000-0000
                 &nbsp; <span>|</span> &nbsp;
                 {/* {footerData.company_shopnum}*/}
-                <span>통신판매업신고번호: </span>
+                <span>통신판매업신고번호: 0000-0000-0000</span>
                 <br/>
 
                 <br/>
