@@ -1,9 +1,9 @@
 import {useEffect, useRef} from "react";
-import "./highlights-section.css"
+import "./highlights-section-v3.css"
 import gsap from "gsap";
 import ScrollTrigger from 'gsap/scrollTrigger';
 
-export default  function HighLightsSection(){
+export default  function HighLightsSectionV3(){
     gsap.registerPlugin(ScrollTrigger);
 
     const largeHeadingRef = useRef([])
@@ -100,7 +100,7 @@ export default  function HighLightsSection(){
 
     return(
         <>
-            <section className="highlights-section" ref={hightlightSecRef}>
+            <section className="highlights-section-v3" ref={hightlightSecRef}>
                 <div className={'high-light-inner'}>
                     <div className="highlights-description-wrapper">
                         <div className="clip highlights-title" ref={titleRef}>

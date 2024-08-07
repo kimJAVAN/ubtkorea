@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './news-board-section.css';
+import './news-board-section-v3.css';
 import { Navigation } from 'swiper/modules';
 import gsap from "gsap";
 import ScrollTrigger from 'gsap/scrollTrigger';
@@ -11,7 +11,7 @@ import {FaArrowRight} from "react-icons/fa6";
 import { GoArrowRight } from "react-icons/go";
 import { GoArrowLeft } from "react-icons/go";
 
-export default function NewsBoardSection(props) {
+export default function NewsBoardSectionV3(props) {
     const {windowWidth} = props;
     const sectionRef = useRef(null);
     const titleWrapRef = useRef(null);
@@ -123,7 +123,7 @@ export default function NewsBoardSection(props) {
 
     return(
         <>
-            <section className="news-board-section" ref={sectionRef}>
+            <section className="news-board-section-v3" ref={sectionRef}>
                 <div className="news-board-title-wrap" ref={titleWrapRef}>
                     <p className="news-board-title" ref={titleRef}>UBT KOREA NEWS</p>
                     <p className="news-board-title-content" ref={titleContentRef}>글로벌한 유통기업 UBT KOREA 소식을 확인해보세요</p>

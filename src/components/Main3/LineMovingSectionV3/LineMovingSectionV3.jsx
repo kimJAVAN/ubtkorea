@@ -1,8 +1,8 @@
-import "./line-moving-section.css"
+import "./line-moving-section-v3.css"
 
-const LineMovingSection =()=>{
+const LineMovingSectionV3 =()=>{
     return(
-        <section className={`line-moving-section`}>
+        <section className={`line-moving-section-v3`}>
             <div className="line-moving-inner">
                 <div className="line-moving-imgWrap">
                     <img src="images/Main/line-moving-section/w-1.png" alt="logo-img" className="line-moving-img"/>
@@ -40,4 +40,4 @@ const LineMovingSection =()=>{
     )
 }
 
-export default LineMovingSection;
+export default LineMovingSectionV3;

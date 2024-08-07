@@ -1,4 +1,4 @@
-.progress-slide-section {
+.progress-slide-section-v3 {
     width: 100%;
     height: 100%;
     padding: 100px 95px;
@@ -11,20 +11,20 @@
 
 }
 
-.progress-slide-section .progress-slide-container {
+.progress-slide-section-v3 .progress-slide-container {
     position: relative;
     width: 100%;
     height: 85vh;
 }
 
-.progress-slide-section .progress-slide-swiper {
+.progress-slide-section-v3 .progress-slide-swiper {
     position: relative;
     width: 100%;
     height: 100%;
     border-radius: 13px;
 }
 
-.progress-slide-section .progress-slide-swiper .progress-slide-bgWrap .progress-slide-img {
+.progress-slide-section-v3 .progress-slide-swiper .progress-slide-bgWrap .progress-slide-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -33,11 +33,11 @@
     filter: brightness(0.6);
 }
 
-.progress-slide-section .progress-slide-swiper .progress-slide-bgWrap .progress-slide-img:hover {
+.progress-slide-section-v3 .progress-slide-swiper .progress-slide-bgWrap .progress-slide-img:hover {
     transform: scale(1.1);
 }
 
-.progress-slide-section .progress-slide-txtBox {
+.progress-slide-section-v3 .progress-slide-txtBox {
     position: absolute;
     bottom: 80px;
     left: 80px;
@@ -49,22 +49,22 @@
     color: #17191b;
 }
 
-.progress-slide-section .progress-slide-txtBox .progress-slide-txtWrap {
+.progress-slide-section-v3 .progress-slide-txtBox .progress-slide-txtWrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.progress-slide-section .progress-slide-txtBox .progress-slide-title {
+.progress-slide-section-v3 .progress-slide-txtBox .progress-slide-title {
     font-size: 28px;
     font-weight: 600;
 }
 
-.progress-slide-section .progress-slide-txtBox .progress-slide-content {
+.progress-slide-section-v3 .progress-slide-txtBox .progress-slide-content {
     font-size: 20px;
 }
 
-.progress-slide-section .slider__dots {
+.progress-slide-section-v3 .slider__dots {
     position: absolute;
     top: 40px;
     left: 40px;
@@ -72,7 +72,7 @@
     gap: 10px;
 }
 
-.progress-slide-section .dots__item {
+.progress-slide-section-v3 .dots__item {
     width: 60px;
     height: 4px;
     cursor: pointer;
@@ -81,7 +81,7 @@
     transition: all 0.3s ease;
 }
 
-.progress-slide-section .dots__item::before {
+.progress-slide-section-v3 .dots__item::before {
     content: '';
     position: absolute;
     top: 0;
@@ -92,7 +92,7 @@
     z-index: 1;
 }
 
-.progress-slide-section .dots__item .background {
+.progress-slide-section-v3 .dots__item .background {
     position: absolute;
     top: 0;
     left: 0;
@@ -102,11 +102,11 @@
     transition: opacity 0.3s ease;
 }
 
-.progress-slide-section .dots__item:hover .background {
+.progress-slide-section-v3 .dots__item:hover .background {
     opacity: 1;
 }
 
-.progress-slide-section .dots__item .background__bg {
+.progress-slide-section-v3 .dots__item .background__bg {
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -114,7 +114,7 @@
     z-index: 3;
 }
 
-.progress-slide-section .dots__item .progress {
+.progress-slide-section-v3 .dots__item .progress {
     position: absolute;
     top: 0;
     left: 0;

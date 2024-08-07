@@ -1,13 +1,13 @@
 import React from "react";
-import './notice-section.css';
+import './notice-section-v3.css';
 import {FaArrowRight} from "react-icons/fa6";
 
-export default function NoticeSection(props) {
+export default function NoticeSectionV3(props) {
     const {windowWidth} = props
 
     return(
         <>
-            <section className="notice-section">
+            <section className="notice-section-v3">
                 <div className="notice-container">
                     <div className="notice-title-wrap">
                         {/*<p className={`notice-title-sub`}>F.A.Q.</p>*/}

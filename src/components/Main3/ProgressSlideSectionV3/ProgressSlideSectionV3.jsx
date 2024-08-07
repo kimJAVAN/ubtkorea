@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react'
-import './progress-slide-section.css';
+import './progress-slide-section-v3.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
-export default function ProgressSlideSection(props) {
+export default function ProgressSlideSectionV3(props) {
     const {windowWidth} = props
 
     const [activeIndex, setActiveIndex] = useState(0);
@@ -44,7 +44,7 @@ export default function ProgressSlideSection(props) {
 
     return(
         <>
-            <section className="progress-slide-section">
+            <section className="progress-slide-section-v3">
                 <div className="progress-slide-container">
                 <Swiper
                     className="progress-slide-swiper"

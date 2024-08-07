@@ -1,11 +1,11 @@
-.notice-section {
+.notice-section-v3 {
     width: 100%;
     height: 100%;
     padding: 100px 95px;
     background-color: #E4E6EB;
 }
 
-.notice-section .notice-container {
+.notice-section-v3 .notice-container {
     display: flex;
     width: 100%;
     height: 100%;
@@ -13,7 +13,7 @@
     gap: 40px;
 }
 
-.notice-section .notice-container .notice-title-wrap {
+.notice-section-v3 .notice-container .notice-title-wrap {
     width: 40%;
     /*max-width: 400px;*/
     display: flex;
@@ -22,11 +22,11 @@
     padding-top: 34px;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-title-sub {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-title-sub {
     font-size: 14px;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-title-title {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-title-title {
     font-size: 50px;
     font-weight: 700;
     height: 48px;
@@ -35,14 +35,14 @@
     text-transform: uppercase;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-title-content {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-title-content {
     margin-top: 15px;
     font-size: 16px;
     line-height: 28px;
     color: #A0A5AB;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-contact-btn {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-contact-btn {
     width: fit-content;
     padding: 14px 24px;
     background-color: #c6c8d0;
@@ -51,18 +51,18 @@
     margin-top: 40px;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-contact-btn a {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-contact-btn a {
     display: flex;
     align-items: center;
     color: #54565a;
     gap: 20px;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-contact-btn:hover {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-contact-btn:hover {
     background-color: #28292a;
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-contact-btn:hover svg {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-contact-btn:hover svg {
     animation: moveRightLeft 0.3s ease;
 }
 
@@ -72,28 +72,28 @@
     100% { transform: translateX(0); }
 }
 
-.notice-section .notice-container .notice-title-wrap .notice-contact-btn:hover a {
+.notice-section-v3 .notice-container .notice-title-wrap .notice-contact-btn:hover a {
     color: #fff;
 }
 
 
-.notice-section .notice-container .notice-content-wrap {
+.notice-section-v3 .notice-container .notice-content-wrap {
     width: 60%;
     /*max-width: 800px;*/
 }
 
-.notice-section .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item {
+.notice-section-v3 .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item {
     padding: 32px 24px;
     font-size: 24px;
     border-bottom: 1px solid #b5aba1;
     cursor: pointer;
 }
 
-.notice-section .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item:hover {
+.notice-section-v3 .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item:hover {
     background-color: #c6c8d0;
 }
 
-.notice-section .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item a {
+.notice-section-v3 .notice-container .notice-content-wrap .notice-list-wrap .notice-list-item a {
     display: flex;
     gap: 20px;
     color: #000;
