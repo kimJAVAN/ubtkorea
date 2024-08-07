@@ -1,0 +1,61 @@
+
+.euno-footer-section3 {
+    position: relative;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #c7c7c7;
+    padding: 100px 95px;
+    line-height: 2.0;
+    color: #6b6b6b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #18191B;
+
+}
+
+.euno-footer-section3 .euno-footer-title {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.euno-footer-section3 .euno-footer-title .footer-logo-div {
+    margin-right: 10px;
+    width: 200px;
+}
+.euno-footer-section3 .euno-footer-title .footer-logo-div img{
+    width: 100%;
+    object-fit: contain;
+}
+.euno-footer-section3 .euno-footer-modal {
+    width: 60%;
+}
+.euno-footer-section3 .euno-footer-modal a{
+    color: #6b6b6b;
+}
+.euno-footer-section3 .euno-footer-info {
+    width: 60%;
+
+}
+
+@media screen and (max-width : 768px){
+    .euno-footer-section3{
+        height: 220px;
+        padding: 20px 15px;
+    }
+    .euno-footer-section3 .euno-footer-title{
+        width: 100%;
+    }
+    .euno-footer-section3 .euno-footer-modal{
+        width: 100%;
+        margin-left: 0;
+    }
+    .euno-footer-section3 .euno-footer-info{
+        width: 100%;
+    }
+    .euno-footer-section3 .euno-footer-title .footer-logo-div img{
+        width: 70%;
+        object-fit: contain;
+    }
+}

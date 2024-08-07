@@ -1,0 +1,96 @@
+.highlights-section{
+    /*background-color: #E4E6EB;*/
+    background: #18191B;
+
+}
+.highlights-section .high-light-inner{
+    padding: 200px 95px 100px;
+    background: rgb(12,36,39);
+    background: -moz-linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    background: linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2427",endColorstr="#0c2427",GradientType=1);
+}
+.highlights-section .highlights-description-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+    width: 100%;
+    gap: 10px;
+}
+.highlights-section .highlights-description-wrapper .highlights-title{
+    width: 100%;
+}
+
+.highlights-section .highlights-description-wrapper .highlights-title .large-heading{
+    font-size: 50px;
+    font-weight: 700;
+    height: 48px;
+    color: #fff;
+    line-height: 50px;
+    transition: opacity 1.5s ease;
+    text-transform: uppercase;
+}
+
+.highlights-section .highlights-description-wrapper .highlights-descript-txtWrap {
+    width: 100%;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.highlights-section .highlights-numbers-wrapper {
+    grid-column-gap: 0px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr .25fr 1fr .25fr 1fr .25fr 1fr;
+    grid-auto-columns: 1fr;
+    /*padding-left: 2.5%;*/
+    /*padding-right: 2.5%;*/
+    display: grid;
+}
+.highlights-section .highlights-numbers-wrapper .div-number {
+    border-top: 1px solid #fff;
+    padding: 20px;
+}
+.highlights-section .highlights-numbers-wrapper .number-wrapper {
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+    color: #fff;
+}
+.highlights-section .highlights-numbers-wrapper .number-wrapper .highlight-number {
+    text-align: left;
+    margin-bottom: 10px;
+
+    font-size: 80px;
+    font-family: Agatho, sans-serif;
+
+    display: inline-block;
+}
+.highlights-section .highlights-numbers-wrapper  .highlight-number.plus {
+    margin-left: 10px;
+    font-size: 60px;
+}
+.highlights-section .highlights-numbers-wrapper .subtitle-medium.serif {
+    letter-spacing: .0325em;
+    text-transform: none;
+    margin-bottom: 0;
+    /*color: rgba(15, 15, 15, .65);*/
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+}
+.highlights-section .highlights-numbers-wrappernumber-wrapper {
+     align-items: center;
+     display: flex;
+ }
+.highlights-section .highlights-numbers-wrapper .div-vertical-divider {
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    align-self: center;
+    justify-self: center;
+}

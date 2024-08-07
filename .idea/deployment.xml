@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="ubtKorea" remoteFilesAllowedToDisappearOnAutoupload="false">
-    <serverData>
-      <paths name="ubtKorea">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/hagunbiz/backend/node/ubtkorea/front" local="$PROJECT_DIR$/dist" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
-  </component>
+  <component name="PublishConfigData" serverName="ubtKorea" remoteFilesAllowedToDisappearOnAutoupload="false" />
 </project>

@@ -1,0 +1,46 @@
+.line-moving-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /*background-color: #E4E6EB;*/
+    background: rgb(12,36,39);
+    background: -moz-linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    background: linear-gradient(270deg, rgba(12,36,39,1) 0%, rgba(18,29,32,1) 50%, rgba(12,36,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c2427",endColorstr="#0c2427",GradientType=1);
+
+}
+.line-moving-section .line-moving-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: moveImages 30s linear infinite;
+}
+@keyframes moveImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.line-moving-section .line-moving-imgWrap {
+    display: flex;
+    padding: 30px 0;
+}
+.line-moving-img {
+    /*width: 300px;*/
+    height: 40px;
+    padding: 0 60px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .line-moving-section .line-moving-imgWrap{
+        padding: 50px 0;
+    }
+    .line-moving-img{
+        height: 20px;
+        padding: 0 30px;
+    }
+}
