@@ -1,0 +1,448 @@
+.furonteer-header-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    transition: 0.5s;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeInDown .5s ease-out forwards;
+    animation-delay: .5s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.furonteer-header-section.chit-header-white {
+    background-color: rgb(85 85 85 / 46%);
+    backdrop-filter: blur(30px);
+}
+
+
+.furonteer-header-section .chit-header-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 95px;
+}
+
+
+.furonteer-header-section .chit-header-container .chit-header-dato-logo {
+    height: 100%;
+    cursor: pointer;
+    width: 150px;
+}
+
+.furonteer-header-section .chit-header-container .chit-header-dato-logo .dato-logo-text {
+    width: 100%;
+    height: 100%;
+    color: #294174;
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.furonteer-header-section .chit-header-container .chit-header-dato-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.furonteer-header-section .chit-header-logo a {
+    display: block;
+    font-size: 0px;
+}
+
+.furonteer-header-section .chit-header-logo a img {
+    display: block;
+    width: 120px;
+}
+
+.furonteer-header-section .chit-header-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.furonteer-header-section .chit-header-nav ul {
+    height: 100%;
+    display: flex;
+    gap:3.6rem;
+    margin-right: 100px;
+}
+
+.furonteer-header-section .chit-more-menu-wrap {
+    position: absolute;
+    top: 90px;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease;
+    background-color: transparent;
+}
+
+.furonteer-header-section .chit-more-menu-wrap.active {
+    max-height: 300px;
+}
+
+.furonteer-header-section .chit-more-menu-wrap>a {
+    margin-bottom: 20px;
+}
+
+.furonteer-header-section .chit-header-nav ul li {
+    position: relative;
+    height: 100%;
+    display: flex;
+    margin-right: 24px;
+    flex-direction: column;
+    justify-content: center;
+    /*width: 115px;*/
+    cursor: pointer;
+}
+
+.furonteer-header-section .chit-header-nav ul li.more {
+    cursor: none;
+}
+
+.furonteer-header-section .chit-header-nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-dropdown {
+    position: absolute;
+    top: 90px;
+    left: -22px;
+    width: 140px;
+    height: 150px;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.furonteer-header-section .chit-header-nav ul:hover li .chit-dropdown {
+    max-height: 150px;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-dropdown .chot-drop-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #545454;
+    margin: 1.2rem 0;
+}
+
+.furonteer-header-section .chit-header-nav-link a {
+    color: #000;
+}
+
+.furonteer-header-section.chit-header-white .chit-header-nav-link a {
+    color: #fff;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #294174;
+    transition: 0.5s;
+
+}
+
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link .menu-img {
+    width: 54px;
+    height: 54px;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link .btn-t {
+    fill: #fff;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link .btn-bg {
+    fill: none; /* 예시: 배경색을 검은색으로 설정 */
+}
+
+
+
+
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link.black-text {
+    color: #777;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link.black-text.active .header-nav-unit {
+    color: #294174;
+}
+
+
+.furonteer-header-section .header-user-login-box {
+    height: 100%;
+    display: flex;
+}
+
+.furonteer-header-section .header-user-li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.furonteer-header-section .header-user-li a {
+    /*color: #eeeeee;*/
+    color: #767676;
+}
+
+.furonteer-header-section .header-nav-login {
+    padding-right: 10px;
+    position: relative;
+}
+
+.furonteer-header-section .header-nav-login:before {
+    content: "|";
+    position: absolute;
+    right: 0;
+    color: #777777;
+}
+
+.furonteer-header-section .header-user-login-box .header-user-li p {
+    font-size: 14px;
+
+}
+
+.active.area,
+.active.intro {
+    text-align: center;
+    width: 115px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-more-menu-wrap .chit-header-nav-link::before {
+    bottom: -8px;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #294174;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link.active {
+    color: #294174;
+    font-weight: bold;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link.black-text.active {
+    color: #294174;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link.active:before {
+    width: 100%;
+}
+
+.furonteer-header-section .chit-header-nav ul li .chit-header-nav-link:hover:before {
+    width: 100%;
+}
+
+.furonteer-header-section .chit-header-nav.active3 ul li:nth-of-type(3) .chit-header-nav-link:after {
+    opacity: 1;
+}
+
+.furonteer-header-section .chit-header-nav.active4 ul li:nth-of-type(4) .chit-header-nav-link:after {
+    opacity: 1;
+}
+
+.furonteer-header-section .chit-login-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.furonteer-header-section .chit-login-list {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.furonteer-header-section .chit-login-list:last-of-type {
+    margin-right: 0;
+}
+
+.furonteer-header-section .chit-header-log-link {
+    font-size: 16px;
+    color: #000000;
+}
+
+.furonteer-header-section .chit-numb-link {
+    font-size: 16px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.furonteer-header-section .chit-numb-link:nth-child(2) {
+    padding: 6px 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .furonteer-header-section {
+        height: 60px;
+        background-color: #111;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 16px;
+    }
+
+    .furonteer-header-section .chit-header-more .chit-header-mo-btn span {
+        color: #fff;
+    }
+
+    .furonteer-header-section .chit-header-more .chit-mo-aside {
+        background-color: #111;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only .chit-mo-aside {
+        display: none;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only .chit-mo-aside.active {
+        display: block;
+        position: fixed;
+        height: calc(100vh - 85px);
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #111;
+        padding: 0px 16px;
+        z-index: 2;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only .chit-header-nav-wrap {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        top: 0px;
+        z-index: 999;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only .chit-header-nav-wrap .chit-header-logo {
+        width: 120px;
+        height: 100%;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only .chit-header-nav-wrap .chit-header-logo>a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only .chit-header-nav-wrap .chit-header-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .furonteer-header-section .chit-header-container.mobile-only ul li a {
+        color: #fff;
+    }
+
+
+
+
+    .chit-mo-container {
+        height: 100%;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .chit-mo-container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    /*기존에 가져온 코드 - 시작 */
+
+    .furonteer-header-section .chit-header-logo a img {
+        display: block;
+
+        width: 64px;
+    }
+
+    .furonteer-header-section .chit-mo-menu-wrap {
+        position: fixed;
+        z-index: 50;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        padding: 1.5rem;
+        left: 100vw;
+        transition: all 0.5s ease;
+    }
+
+    .furonteer-header-section .chit-mo-menu-wrap.active {
+        left: 0;
+    }
+
+    .furonteer-header-section .chit-mo-menu-wrap .chit-header-nav-link {
+        color: black;
+        font-size: 18px;
+    }
+
+    .furonteer-header-section .chit-header-nav-link {
+        color: black;
+    }
+
+    .furonteer-header-section .chit-mo-menu-wrap li {
+        margin-bottom: 20px;
+    }
+
+    .furonteer-header-section .chit-x-btn-wrap {
+        width: 100%;
+        text-align: right;
+    }
+
+    .furonteer-header-section .chit-mo-btn {
+        color: #000;
+    }
+
+    .furonteer-header-section .chit-mo-btn.active {
+        display: none;
+    }
+
+    /*기존에 가져온 코드 - 끝 */
+}

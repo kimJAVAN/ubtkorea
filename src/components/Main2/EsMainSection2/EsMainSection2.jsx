@@ -140,7 +140,7 @@ export default function EsMainSection2() {
         <div className="es-bg-wrap">
           <video
               className={`es-bg-video`}
-              src="/images/Main2/esMain/main1.mp4"
+              src="/images/Main2/esMain/main2.mp4"
               muted loop autoPlay playsInline ></video>
           <img className={`es-bg-video`} src="/images/Main2/esMain/card1.jpg" alt="bg-img"/>
         </div>
@@ -160,7 +160,7 @@ export default function EsMainSection2() {
           >
             <img
                 className={`se-main-s1-img`}
-                src="/images/Main2/esMain/1.png"
+                src="/images/Main2/esMain/2.png"
                 alt="s1-img"
                 ref={esMainImgRef}
             />
