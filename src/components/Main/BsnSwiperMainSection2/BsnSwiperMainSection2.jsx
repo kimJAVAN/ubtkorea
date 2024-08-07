@@ -56,12 +56,12 @@ const BsnSwiperMainSection2 = () => {
                                             <p>UBT KOREA</p>
                                             <p className={`bsn-swiperMain-top-flex`}><span>UNIDENTIFIED</span><span>BEAUTIFUL</span><span>THINGS</span></p>
                                         </div>
-                                        <div className="bsn-swiperMain-text">
-                                            <p>
-                                                더 나은 더 합리적인 유통 전략을 고민하고 <br/>
-                                                제품과 우리의 아름다움을 알려드리겠습니다.
-                                            </p>
-                                        </div>
+                                        {/*<div className="bsn-swiperMain-text">*/}
+                                        {/*    <p>*/}
+                                        {/*        더 나은 더 합리적인 유통 전략을 고민하고 <br/>*/}
+                                        {/*        제품과 우리의 아름다움을 알려드리겠습니다.*/}
+                                        {/*    </p>*/}
+                                        {/*</div>*/}
                                     </div>
 
                                 </SwiperSlide>
