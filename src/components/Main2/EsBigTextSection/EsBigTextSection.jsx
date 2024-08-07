@@ -18,14 +18,17 @@ export default function EsBigTextSection() {
 
     const reviewData = [
         {
-            mainImg:'/images/Main2/esMain/es-bigText-section/card1.mp4',
-            imgSrc: '/images/Main2/esMain/es-bigText-section/5.jpg',
-            des :"01<br/><br/>먼지 청소가 끝나면<br/>알아서 물걸레 청소 시작",
-        },
-        {
             mainImg:'/images/Main2/esMain/es-bigText-section/card2.mp4',
+            imgSrc: '/images/Main2/esMain/es-bigText-section/5.jpg',
+            des :"POINT 01<br/><br/>스마트 글로벌 시스템으로<br/>신속 정확한 자동화",
+        },
+
+
+
+        {
+            mainImg:'/images/Main2/esMain/es-bigText-section/card1.mp4',
             imgSrc: '/images/Main2/esMain/es-bigText-section/6.jpg',
-            des : "02<br/><br/>알아서 충전하고,<br/>멈춘 장소에서 이어서 청소",
+            des : "POINT 02<br/><br/>업체 만족을 위한<br/>지속적 시스템 연구",
         },
     ];
 
@@ -182,14 +185,13 @@ export default function EsBigTextSection() {
                 <div className="es-bigText-title-wrap">
                     {innerWidth < 768 ? (
                         <p className={`es-bigText-title ${isBigActive ? "active" :""}`} ref={bigTitle}>
-                            스마트하고 유려한 디자인의 청소기 <br/>
-                            LG 코드제로의 강력한 퍼포먼스를 확인하세요
+                            국내/해외 유통업체 글로벌 고객만족도 1위 <br/>
+                            UBT Korea의 서비스를 확인하세요
                         </p>
                     ):(
                         <p className={`es-bigText-title ${isBigActive ? "active" :""}`} ref={bigTitle}>
-                            스마트하고 유려한 디자인의 청소기
-                            <br/>
-                            LG 코드제로의 강력한 퍼포먼스를 확인하세요
+                            국내/해외 유통업체 글로벌 고객만족도 1위 <br/>
+                            UBT Korea의 서비스를 확인하세요
                         </p>
                     )}
 

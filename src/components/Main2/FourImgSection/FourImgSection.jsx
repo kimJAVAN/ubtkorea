@@ -109,14 +109,14 @@ export default function FourImgSection(){
 
   return(
     <section className={'four-img-section'}>
-      <h2 className={`four-img-title`}>스마트하고 유려한 디자인의 <br className={`mobile-only`}/>
-        S1 PRO를 확인하세요</h2>
+      <h2 className={`four-img-title`}>글로벌 유통 이제 UBT  <br className={`mobile-only`}/>
+        Korea과 함께하세요</h2>
       <div className={'four-img-top'}>
         <div className={'top-img-wrap item1'} ref={AniRefs[0]}>
           <img className={'four-img four-img-one'} src="/images/Main2/esMain/four-img-section/2.jpg"/>
         </div>
         <div className={'top-img-wrap item2'} ref={AniRefs[1]}>
-          <img className={'four-img four-img-two'}  src="/images/Main2/esMain/four-img-section/two.png"/>
+          <img className={'four-img four-img-two'}  src="/images/Main2/esMain/four-img-section/two.jpg"/>
         </div>
         <div className={'top-img-wrap item3'} ref={AniRefs[2]}>
           <img className={'four-img four-img-three'} src="/images/Main2/esMain/four-img-section/three.png"/>

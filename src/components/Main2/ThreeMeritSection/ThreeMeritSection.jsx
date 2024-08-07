@@ -4,27 +4,24 @@ import {useState} from "react";
 export default function ThreeMeritSection() {
     const serviceData = [
         {
-            title: "인공지능 딥러닝",
-            desc: "인공지능 딥러닝에 관련한 자세한\n" +
-                "제품 설명이 들어갈 예정입니다.",
+            title: "프렌차이즈 건설업",
+            desc: "프렌차이즈 건설업으로 피자먹다, 카페 보스, <br/> 에그박스, 꿀마니 닭강정 등이 있습니다.",
             img: "/images/Main2/esMain/three-merit-section/1.png",
-            video: "/images/Main2/esMain/three-merit-section/2-1.mp4",
+            video: "/images/Main2/esMain/three-merit-section/2-1.jpg",
             link:'/pro_s1'
         },
         {
-            title: "레이저 센서",
-            desc: "레이저 센서에 관련한 자세한\n" +
-                "제품 설명이 들어갈 예정입니다.",
+            title: "복지/폐쇄몰 온라인 마켓",
+            desc: "복지/ 폐쇄물 온라인 마켓으로 네이버,<br/>쿠팡, 11번가, 현대백화점, 기업은행 임직원몰 등이 있습니다.",
             img: "/images/Main2/esMain/three-merit-section/2.png",
-            video: "/images/Main2/esMain/three-merit-section/2-2.mp4",
+            video: "/images/Main2/esMain/three-merit-section/2-2.jpg",
             link:'/pro_x10'
         },
         {
-            title: "인공지능 영역 설정",
-            desc: "인공지능 영역 설정에 관련한 자세한\n" +
-                "제품 설명이 들어갈 예정입니다.",
+            title: "리퍼, 오프라인 매장 수출",
+            desc: "리퍼, 오프라인 매장 수출라인 보유함으로<br/>리퍼 업체 리퍼프렌즈 및 해외 업체 수출 관련하여<br/>진행하고 있습니다.",
             img: "/images/Main2/esMain/three-merit-section/3.png",
-            video: "/images/Main2/esMain/three-merit-section/2-3.mp4",
+            video: "/images/Main2/esMain/three-merit-section/2-3.jpg",
             link:'/'
         },
     ];
@@ -54,8 +51,10 @@ export default function ThreeMeritSection() {
                                     // <video style={{background: '#000'}} src={data.video ?data.video:data.img2} muted autoPlay loop
                                     //        playsInline></video>
                                     data.video ? (
-                                        <video style={{background: '#000'}} src={data.video} muted autoPlay loop playsInline></video>
+                                        // <video style={{background: '#000'}} src={data.video} muted autoPlay loop playsInline></video>
+                                        <img className={"vi"} style={{background: '#000'}} src={data.video}/>
                                     ) : (
+
                                         <img src={data.img2} alt="img" />
                                     )
                                     : <img src={data.img} alt="img" />
@@ -80,9 +79,7 @@ export default function ThreeMeritSection() {
                     ))}
                 </div>
                 <div className="three-merit-section-title">
-                    {/*세계 최초 올인원 스테이션 청소기*/}
-                    세계 최고 회사의 드론 핵심 기술 네비게이션 알고리즘 탑재 <br/>
-                    A.I 스마트 로봇청소기
+                    다양한 종류의 유통채널 보유
                 </div>
             </div>
         </div>

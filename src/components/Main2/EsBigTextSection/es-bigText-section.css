@@ -118,7 +118,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     transform-style: preserve-3d;
     backface-visibility: hidden;
