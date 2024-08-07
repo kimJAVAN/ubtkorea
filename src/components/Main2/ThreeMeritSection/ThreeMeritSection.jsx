@@ -6,22 +6,22 @@ export default function ThreeMeritSection() {
         {
             title: "프렌차이즈 건설업",
             desc: "프렌차이즈 건설업으로 피자먹다, 카페 보스, <br/> 에그박스, 꿀마니 닭강정 등이 있습니다.",
-            img: "/images/Main2/esMain/three-merit-section/1.png",
-            video: "/images/Main2/esMain/three-merit-section/2-1.jpg",
+            img: "https://banseok.2spsample4.shop/images/esMain/three-merit-section/1.png",
+            video: "/images/Main2/esMain/three-merit-section/1-1.mp4",
             link:'/pro_s1'
         },
         {
             title: "복지/폐쇄몰 온라인 마켓",
             desc: "복지/ 폐쇄물 온라인 마켓으로 네이버,<br/>쿠팡, 11번가, 현대백화점, 기업은행 임직원몰 등이 있습니다.",
-            img: "/images/Main2/esMain/three-merit-section/2.png",
-            video: "/images/Main2/esMain/three-merit-section/2-2.jpg",
+            img: "https://banseok.2spsample4.shop/images/esMain/three-merit-section/2.png",
+            video: "/images/Main2/esMain/three-merit-section/1-2.mp4",
             link:'/pro_x10'
         },
         {
             title: "리퍼, 오프라인 매장 수출",
             desc: "리퍼, 오프라인 매장 수출라인 보유함으로<br/>리퍼 업체 리퍼프렌즈 및 해외 업체 수출 관련하여<br/>진행하고 있습니다.",
-            img: "/images/Main2/esMain/three-merit-section/3.png",
-            video: "/images/Main2/esMain/three-merit-section/2-3.jpg",
+            img: "https://banseok.2spsample4.shop/images/esMain/three-merit-section/3.png",
+            img2: "/images/Main2/esMain/three-merit-section/1-3.jpg",
             link:'/'
         },
     ];
@@ -52,7 +52,8 @@ export default function ThreeMeritSection() {
                                     //        playsInline></video>
                                     data.video ? (
                                         // <video style={{background: '#000'}} src={data.video} muted autoPlay loop playsInline></video>
-                                        <img className={"vi"} style={{background: '#000'}} src={data.video}/>
+                                        <video style={{background: '#000'}} src={data.video} muted autoPlay loop
+                                               playsInline></video>
                                     ) : (
 
                                         <img src={data.img2} alt="img" />

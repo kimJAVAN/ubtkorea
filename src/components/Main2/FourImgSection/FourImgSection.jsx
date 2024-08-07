@@ -113,16 +113,16 @@ export default function FourImgSection(){
         Korea과 함께하세요</h2>
       <div className={'four-img-top'}>
         <div className={'top-img-wrap item1'} ref={AniRefs[0]}>
-          <img className={'four-img four-img-one'} src="/images/Main2/esMain/four-img-section/2.jpg"/>
+          <img className={'four-img four-img-one'} src="https://banseok.2spsample4.shop/images/esMain/four-img-section/2.jpg"/>
         </div>
         <div className={'top-img-wrap item2'} ref={AniRefs[1]}>
-          <img className={'four-img four-img-two'}  src="/images/Main2/esMain/four-img-section/two.jpg"/>
+          <img className={'four-img four-img-two'}  src="https://banseok.2spsample4.shop/images/esMain/four-img-section/two.png"/>
         </div>
         <div className={'top-img-wrap item3'} ref={AniRefs[2]}>
-          <img className={'four-img four-img-three'} src="/images/Main2/esMain/four-img-section/three.png"/>
+          <img className={'four-img four-img-three'} src="https://banseok.2spsample4.shop/images/esMain/four-img-section/three.png"/>
         </div>
         <div className={'top-img-wrap item4'} ref={AniRefs[3]}>
-          <img className={'four-img four-img-four'} src="/images/Main2/esMain/four-img-section/four.png"/>
+          <img className={'four-img four-img-four'} src="https://banseok.2spsample4.shop/images/esMain/four-img-section/four.png"/>
         </div>
       </div>
     </section>
