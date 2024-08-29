@@ -99,8 +99,8 @@ export default function MomCardsNews() {
         gsap.to('.mom-cards-news .mom-cards-wrapper',{
             scrollTrigger: {
                 trigger: '.mom-cards-news',
-                start: "1200px center",
-                end: "1700px center",
+                start: "1300px center",
+                end: "1900px center",
                 scrub:true,
                 duration:0,
                 // markers: true,

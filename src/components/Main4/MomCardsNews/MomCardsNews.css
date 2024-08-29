@@ -57,17 +57,33 @@
     display: flex;
     flex-direction: column;
     top: 70vh;
+    transition: all .3s ease-in-out;
+}
+.mom-cards-news .mom-cards-unit:hover{
+    background: black;
+    color: white;
+    border-right: 1px solid #4a4a4a;
+}
+.mom-cards-news .mom-cards-unit:hover .mom-card-main-text{
+    color: white;
 }
 .mom-cards-news .mom-card-top-num{
     width: 40px;
     height: 40px;
     display: flex;
+    font-size: 16px;
     justify-content: center;
     align-items: center;
     background: blue;
     color: white;
     border-radius: 50%;
     align-self: flex-end;
+    transition: all .3s ease-in-out;
+}
+.mom-cards-news .mom-cards-unit:hover .mom-card-top-num{
+    width: 10px;
+    height: 10px;
+    font-size: 0;
 }
 .mom-cards-news .mom-card-main-text{
     font-size: 48px;
@@ -75,9 +91,13 @@
     font-weight: 500;
     line-height: 50px;
     margin-bottom: 30px;
+    transition: all .3s ease-in-out;
 }
 .mom-cards-news .mom-card-context{
     color: #acacac;
+}
+.mom-cards-news .mom-cards-unit:hover .mom-card-bottom-btn{
+    bottom: 50px;
 }
 .mom-cards-news .mom-card-bottom-btn{
     background: blue;
@@ -87,4 +107,5 @@
     width: fit-content;
     position: absolute;
     bottom: 30px;
+    transition: all .3s ease-in-out;
 }
