@@ -4,6 +4,7 @@
     position: relative;
     background: black;
     color: white;
+    z-index: 2;
 }
 .mom-scale-one .mom-scale-wrapper {
     width: 100%;

@@ -73,7 +73,7 @@ export default function MomScaleOne() {
                 // markers: true,
                 ease:'linear',
             },
-            top : '0vh',
+            top : '85px',
             scale : '1',
             borderRadius : '0px'
         })
@@ -125,7 +125,7 @@ export default function MomScaleOne() {
                 // markers: true,
                 ease:'linear',
             },
-            top : '0vh',
+            top : '170px',
             scale : '1',
             borderRadius : '0px'
         })
