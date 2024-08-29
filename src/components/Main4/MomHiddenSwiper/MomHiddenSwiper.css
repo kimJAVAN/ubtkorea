@@ -1,0 +1,118 @@
+.mom-hidden-swiper {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: white;
+}
+.mom-hidden-swiper .mom-hidden-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mom-hidden-swiper .mom-main-swiper{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.mom-hidden-swiper .mom-left-div{
+    width: 29%;
+    background: #303030;
+    padding: 60px 30px;
+    border-radius: 30px 0px 0px 30px;
+}
+.mom-hidden-swiper .mom-left-top-text{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.mom-hidden-swiper .mom-left-top-main-text{
+    font-size:48px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.mom-hidden-swiper .main-two-swiper{
+    width: 58%;
+    background: #1c1c1c;
+}
+.mom-hidden-swiper .mom-left-top-context{
+    opacity: .5;
+    font-size: 14px;
+    line-height: 20px;
+}
+.mom-hidden-swiper .inner-swiper{
+    padding: 30px;
+    overflow: hidden;
+    height: 120%;
+    position: relative;
+    min-height: 90vh;
+}
+.mom-hidden-swiper .looped-texts-wrapper{
+    height: 20%;
+}
+.mom-hidden-swiper .swiper-top-title{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mom-hidden-swiper .swiper-center-texts{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    width: 80%;
+}
+.mom-hidden-swiper .looped-texts-wrapper{
+    position: absolute;
+    top: 100%;
+    font-size: 100px;
+    display: flex;
+    word-break: keep-all;
+    width: 1000%;
+    font-weight: 500;
+    /*transition: all .4s ease-in-out;*/
+    animation: loopedTexts 50s ease-in-out infinite;
+}
+@keyframes loopedTexts {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -700%;
+    }
+}
+.mom-hidden-swiper .swiper-btm-logo-wrap{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.mom-hidden-swiper .swiper-btm-logo-wrap > img{
+    width: 20%;
+}
+.mom-hidden-swiper .inner-swiper:hover .looped-texts-wrapper{
+    top : 80%;
+}
+.mom-hidden-swiper .inner-swiper *{
+    transition: all .5s ease-in-out;
+}
+.mom-hidden-swiper .inner-swiper:hover{
+    color: black;
+    background: white;
+}
+.mom-hidden-swiper .inner-swiper:hover .swiper-center-texts{
+    top: 40%;
+}
+.mom-hidden-swiper .inner-swiper:hover .swiper-btm-logo-wrap{
+    bottom: 200px;
+}
