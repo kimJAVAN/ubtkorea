@@ -203,7 +203,7 @@ export default function MomScaleOne() {
                                         </p>
                                     </div>
                                     <div className={'mom-btn-wrapper'}>
-                                        <MomWholeBtn/>
+                                        <MomWholeBtn name={'Get In Touch'}/>
                                     </div>
                                 </div>
                             </div>
@@ -241,7 +241,7 @@ export default function MomScaleOne() {
                                         </p>
                                     </div>
                                     <div className={'mom-btn-wrapper'}>
-                                        <MomWholeBtn/>
+                                        <MomWholeBtn name={'Get In Touch'}/>
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +279,7 @@ export default function MomScaleOne() {
                                         </p>
                                     </div>
                                     <div className={'mom-btn-wrapper'}>
-                                        <MomWholeBtn/>
+                                        <MomWholeBtn name={'Get In Touch'}/>
                                     </div>
                                 </div>
                             </div>

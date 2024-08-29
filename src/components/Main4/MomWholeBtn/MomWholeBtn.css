@@ -1,10 +1,80 @@
 .mom-whole-btn {
     width: 100%;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    min-width: 233px;
+    cursor: pointer;
 }
-.mom-whole-btn .mom-scale-wrapper {
+.mom-whole-btn .mom-btn-wrapper {
     width: 100%;
-    height: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
 }
-.mom-whole-btn .mom-sticky-wrapper{
+.mom-whole-btn .mom-left-btn{
+    background: blue;
+    padding: 12px 50px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.mom-whole-btn .mom-right-btn{
+    height: 43px;
+    background: blue;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+}
+.mom-whole-btn:hover .mom-right-btn{
+    height: 0;
+}
+
+.mom-whole-btn svg{
+    scale: 1.2;
+}
+.mom-whole-btn .mom-arrow{
+    position: absolute;
+    right: 12.5px;
+    top: 55%;
+    transform: translateY(-50%);
+    transition: all .2s ease-in-out;
+}
+.mom-whole-btn:hover .mom-arrow{
+    right: -12.5px;
+}
+.mom-whole-btn .mom-bg-inner-text{
+    position: absolute;
+    top: 50px;
+    background: #1d1d23;
     width: 100%;
+    height: 43px;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mom-whole-btn:hover .mom-bg-inner-text{
+    top: 0;
+}
+.mom-whole-btn .mom-inner-text{
+    position: relative;
+    top: 0px;
+    transition: all .2s ease-in-out;
+}
+.mom-whole-btn:hover .mom-inner-text{
+    top: -10px;
+}
+.mom-whole-btn .mom-right-arrow{
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    scale: 0;
+    transform: translateY(-50%);
+    transition: all .2s ease-in-out;
+}
+.mom-whole-btn:hover .mom-right-arrow{
+    scale: 1;
 }
