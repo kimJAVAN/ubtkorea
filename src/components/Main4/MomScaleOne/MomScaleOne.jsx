@@ -11,7 +11,160 @@ gsap.registerPlugin(ScrollTrigger);
 export default function MomScaleOne() {
 
     useEffect(() => {
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(1)',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "300px center",
+                end: "1200px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            top : '0vh',
+            scale : '1',
+            borderRadius : '0px'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(1) .mom-top-title',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "300px center",
+                end: "1200px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            fontSize : '38px'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(1) .mom-top-cate-wrap',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "300px center",
+                end: "1200px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            scale : '1'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(1) .mom-center-load',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "300px center",
+                end: "1200px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            width : '100%'
+        })
 
+
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(2)',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "1900px center",
+                end: "2800px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            top : '0vh',
+            scale : '1',
+            borderRadius : '0px'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(2) .mom-top-title',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "1900px center",
+                end: "2800px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            fontSize : '38px'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(2) .mom-top-cate-wrap',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "1900px center",
+                end: "2800px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            scale : '1'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(2) .mom-center-load',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "1900px center",
+                end: "2800px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            width : '100%'
+        })
+
+
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(3)',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "3500px center",
+                end: "4400px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            top : '0vh',
+            scale : '1',
+            borderRadius : '0px'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(3) .mom-top-title',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "3500px center",
+                end: "4400px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            fontSize : '38px'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(3) .mom-top-cate-wrap',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "3500px center",
+                end: "4400px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            scale : '1'
+        })
+        gsap.to('.mom-scale-one .mom-go-to-top-unit:nth-of-type(3) .mom-center-load',{
+            scrollTrigger: {
+                trigger: '.mom-scale-one',
+                start: "3500px center",
+                end: "4400px center",
+                scrub:true,
+                duration:0,
+                // markers: true,
+                ease:'linear',
+            },
+            width : '100%'
+        })
     }, []);
 
     return (
@@ -61,16 +214,18 @@ export default function MomScaleOne() {
                             <div className={'mom-center-load'}></div>
                         </div>
                         <div className={'mom-top-texts-wrapper'}>
-                            <p className={'mom-top-title'}>Vibe Interior</p>
-                            <div className={'mom-top-cate-wrap'}>
-                                <div className={'mom-top-cate-unit'}>
-                                    <p>Growth Partner</p>
-                                </div>
-                                <div className={'mom-top-cate-unit'}>
-                                    <p>Growth Partner</p>
-                                </div>
-                                <div className={'mom-top-cate-unit'}>
-                                    <p>Growth Partner</p>
+                            <div className={'mom-top-title-wrapper'}>
+                                <p className={'mom-top-title'}>Vibe Interior</p>
+                                <div className={'mom-top-cate-wrap'}>
+                                    <div className={'mom-top-cate-unit'}>
+                                        <p>Growth Partner</p>
+                                    </div>
+                                    <div className={'mom-top-cate-unit'}>
+                                        <p>Growth Partner</p>
+                                    </div>
+                                    <div className={'mom-top-cate-unit'}>
+                                        <p>Growth Partner</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className={'mom-btm-wrapper'}>
@@ -97,16 +252,18 @@ export default function MomScaleOne() {
                             <div className={'mom-center-load'}></div>
                         </div>
                         <div className={'mom-top-texts-wrapper'}>
-                            <p className={'mom-top-title'}>Vibe Interior</p>
-                            <div className={'mom-top-cate-wrap'}>
-                                <div className={'mom-top-cate-unit'}>
-                                    <p>Growth Partner</p>
-                                </div>
-                                <div className={'mom-top-cate-unit'}>
-                                    <p>Growth Partner</p>
-                                </div>
-                                <div className={'mom-top-cate-unit'}>
-                                    <p>Growth Partner</p>
+                            <div className={'mom-top-title-wrapper'}>
+                                <p className={'mom-top-title'}>Vibe Interior</p>
+                                <div className={'mom-top-cate-wrap'}>
+                                    <div className={'mom-top-cate-unit'}>
+                                        <p>Growth Partner</p>
+                                    </div>
+                                    <div className={'mom-top-cate-unit'}>
+                                        <p>Growth Partner</p>
+                                    </div>
+                                    <div className={'mom-top-cate-unit'}>
+                                        <p>Growth Partner</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className={'mom-btm-wrapper'}>
