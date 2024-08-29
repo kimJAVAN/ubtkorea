@@ -5,6 +5,7 @@ import MainRouter from "./MainRouter.jsx";
 import MainContainer from "../components/Main/MainContainer.jsx";
 import Main2Container from "../components/Main2/Main2Container.jsx";
 import Main3Container from "../components/Main3/Main3Container.jsx";
+import Main4Container from "../components/Main4/Main4Container.jsx";
 function AppRouter() {
   // 디바이스 width 감지 - PC 모바일 감지용
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -30,6 +31,7 @@ function AppRouter() {
           <Route path={'test/*'} element={<MainRouter />} />
           <Route path={'2/*'} element={<Main2Container />} />
           <Route path={'3/*'} element={<Main3Container />} />
+          <Route path={'4/*'} element={<Main4Container />}></Route>
         </Route>
       </Routes>
     </Router>
