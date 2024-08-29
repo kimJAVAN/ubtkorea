@@ -18,9 +18,10 @@
 }
 .mom-hidden-swiper .mom-left-div{
     width: 29%;
-    background: #303030;
+    background: #222222;
     padding: 60px 30px;
     border-radius: 30px 0px 0px 30px;
+    position: relative;
 }
 .mom-hidden-swiper .mom-left-top-text{
     margin-bottom: 10px;
@@ -115,4 +116,67 @@
 }
 .mom-hidden-swiper .inner-swiper:hover .swiper-btm-logo-wrap{
     bottom: 200px;
+}
+
+.mom-hidden-swiper .mom-swiper-btn{
+    position: absolute;
+    bottom: 30px;
+    background: #111;
+
+    padding: 30px;
+    border-radius: 50%;
+
+    border: 1px solid #3c3c3c;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+.mom-hidden-swiper .mom-swiper-btn svg{
+    scale: 2.5;
+}
+.mom-hidden-swiper .mom-swiper-btn:nth-of-type(2){
+    left: 120px;
+}
+.mom-hidden-swiper .swiper-arrow{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    z-index: 20;
+    transform: translate(-50%, -50%);
+    transition: all .2s ease-in-out;
+}
+.mom-hidden-swiper .swiper-arrow:nth-of-type(2){
+    left: 120%;
+}
+.mom-hidden-swiper .next-btn .swiper-arrow:nth-of-type(2){
+    left: -30%;
+}
+.mom-hidden-swiper .swiper-bg{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    background: blue;
+
+    transform: translate(-50%, -50%);
+    scale: 0;
+    transition: all .2s ease-in-out;
+
+}
+.mom-hidden-swiper .mom-swiper-btn:hover .swiper-bg{
+    scale: 1;
+}
+.mom-hidden-swiper .prev-btn:hover .swiper-arrow:nth-of-type(1){
+    left: -30%;
+}
+.mom-hidden-swiper .prev-btn:hover .swiper-arrow:nth-of-type(2){
+    left: 50%;
+}
+.mom-hidden-swiper .next-btn:hover .swiper-arrow:nth-of-type(1){
+    left: 120%;
+}
+.mom-hidden-swiper .next-btn:hover .swiper-arrow:nth-of-type(2){
+    left: 50%;
 }

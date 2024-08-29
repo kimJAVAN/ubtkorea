@@ -15,6 +15,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 export default function MomHiddenSwiper() {
+
+    const prevBtn = useRef();
+    const nextBtn = useRef();
     
     useEffect(() => {
 
@@ -37,12 +40,12 @@ export default function MomHiddenSwiper() {
                             Clients Say About Working With Us? What Our Clients Say About Working With Us? What Our
                             Clients Say About Working With Us?
                         </p>
-                        <div className={'mom-swiper-btn prev-btn'}>
+                        <div className={'mom-swiper-btn prev-btn'} ref={prevBtn}>
                             <div className={'swiper-arrow'}><IoIosArrowBack/></div>
                             <div className={'swiper-arrow'}><IoIosArrowBack/></div>
                             <div className={'swiper-bg'}></div>
                         </div>
-                        <div className={'mom-swiper-btn prev-btn'}>
+                        <div className={'mom-swiper-btn next-btn'} ref={nextBtn}>
                             <div className={'swiper-arrow'}><IoIosArrowForward /></div>
                             <div className={'swiper-arrow'}><IoIosArrowForward /></div>
                             <div className={'swiper-bg'}></div>
@@ -50,7 +53,11 @@ export default function MomHiddenSwiper() {
                     </div>
                     <div className={'main-two-swiper'}>
                         <Swiper
-                            navigation={true}
+                            navigation={{
+                                nextEl: '.mom-hidden-swiper .next-btn',
+                                prevEl: '.mom-hidden-swiper .prev-btn',
+                            }}
+                            speed = {1000}
                             modules={[Navigation]}
                             slidesPerView={'2'}
                             loop={true}
