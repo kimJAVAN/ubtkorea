@@ -4,23 +4,47 @@ import {wrap} from "gsap/gsap-core";
 // import gsap from "gsap";
 // import ScrollTrigger from "gsap/scrollTrigger";
 import {NavLink} from "react-router-dom";
-
+import gsap from "gsap";
+import MomWholeBtn from "../MomWholeBtn/MomWholeBtn.jsx";
+import MomWholeBtn1 from "../MomWholeBtn1/MomWholeBtn1.jsx";
 // gsap.registerPlugin(ScrollTrigger);
 export default function BrxeSection() {
-
+    const listRef=useRef(null);
+    useEffect(() => {
+        const lilists = listRef.current.querySelectorAll(".smlet");
+        gsap.set(lilists, { y: 20, opacity: 0,   transform: 'translate(0%, 110%) skew(30deg, 5deg) scale(0.89, 0.89)' });
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: listRef.current,
+                start: "top 80%",
+                end: "bottom 80%",
+                toggleActions: "play none none reverse", // 스크롤 내려갈 때 재생, 올라갈 때 역재생
+                // markers:true,
+            }
+        });
+        lilists.forEach((item, index) => {
+            tl.to(item, {
+                y: 0,
+                opacity: 1,
+                transform: 'translate(0px, 0px) skew(0deg, 0deg) scale(1, 1)',
+                duration: 1,
+                ease: 'power3.out'
+            }, index * 0.3); // 각 항목의 시작 시간을 지연시킵니다
+        });
+    }, []);
     return (
         <>
             <section  className="brxe-section">
-                <div  className="brxe-container">
-                    <div className="left-box">
+                <div  className="brxe-container" ref={listRef}>
+                    <div className="left-box smlet">
 
-                        <h3 className="subh-anim2">OUR
-                            PURPOSE</h3>
+                        <p className="subh-anim2">OUR
+                            PURPOSE</p>
                     </div>
                     <div  className="brxe-jilxcl">
                         <div  className="brxe-right">
                             <div  className="brxe-text">
-                                <p>
+                                <p className={"smlet"}>
                                     <span className={"white"} >We’re all about leveling up every part of</span>
 
                                     <span >your business in the digital landscape,</span>
@@ -31,62 +55,13 @@ export default function BrxeSection() {
                                    
                                     <span className={"white"}> in the crowd.</span></p>
                             </div>
-                            <div className="brxe-rhbvyi">
+                            <div className="brxe-rhbvyi smlet">
                                 {/*트랜지션*/}
-                                <NavLink to={""} className="brxe-asapip">
-                                    <div  className="buton-cu-cerc">
-                                        <p className="brxe-heading">Get
-                                            In Touch</p>
-                                        <div className="brxe-gdcxec">
-                                            <div  className="bg2-but-cerc"></div>
-                                            <div  className="brxe-katjhy">
-                                                <p className="t2-but-cerc">
-                                                    Get In Touch</p></div>
-                                        </div>
-                                    </div>
-                                    {/*    트랜지션*/}
-                                    <div  className="cerc-but-cu-cerc">
-                                        <img src="https://momenthumagency.com/wp-content/uploads/2024/06/Line-536-1.png"
-                                             className="brxe-image" alt=""
-                                        />
-                                        <div className="">
-                                            <div  className="bg-abs-but-cu-cerc">
-                                                <div className="horizontal">
-                                                    <div className="line"></div>
-                                                </div>
-                                            </div>
-                                            <div  className="brxe-image">
-                                                <img src="https://momenthumagency.com/wp-content/uploads/2024/06/Line-536-1.png" className="brxe-image"/>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <NavLink to={""} className="brxe-asapip ">
+                                    <MomWholeBtn name={'Get In Touch'}/>
                                 </NavLink>
                                 <NavLink  to={""} className="but-fade2">
-                                    <div  className="buton-cu-cerc">
-                                        <h3  className="t-but-cerc">Services</h3>
-                                        <div  className="">
-                                            <div className="bg2-but-cerc"></div>
-                                            <div className="">
-                                                <h3 className="t2-but-cerc">Services</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div  className="cerc-but-cu-cerc">
-                                        <img
-                                            src="https://momenthumagency.com/wp-content/uploads/2024/06/Line-536-1.png"
-                                            className="brxe-image" alt=""
-                                        />
-                                        <div className="brxe-container">
-                                            <div  className="bg-abs-but-cu-cerc">
-                                                <div  className="horizontal">
-                                                    <div className="line"></div>
-                                                </div>
-                                            </div>
-                                            <div className="bg-icon2">
-                                                <img className="brxe-image" src="https://momenthumagency.com/wp-content/uploads/2024/06/Line-536-1.png"/>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <MomWholeBtn1 name={'Services'}/>
                                 </NavLink>
                             </div>
                         </div>

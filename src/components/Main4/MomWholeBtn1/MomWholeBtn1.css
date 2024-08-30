@@ -1,4 +1,4 @@
-.mom-whole-btn {
+.mom-whole-btn1 {
     width: 100%;
     color: white;
     position: relative;
@@ -6,44 +6,49 @@
     min-width: 233px;
     cursor: pointer;
 }
-.mom-whole-btn .mom-btn-wrapper {
+.mom-whole-btn1 .mom-btn-wrapper {
     width: 100%;
     height: fit-content;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    position: relative;
 }
-.mom-whole-btn .mom-left-btn{
-    background: blue;
+.mom-whole-btn1 .mom-left-btn{
+    /*background: blue;*/
     padding: 12px 50px;
     border-radius: 40px;
     position: relative;
     overflow: hidden;
 }
-.mom-whole-btn .mom-right-btn{
+.mom-whole-btn1 .mom-right-btn{
     height: 43px;
-    background: blue;
+    /*background: blue;*/
     aspect-ratio: 1/1;
     border-radius: 50%;
     transition: all .2s ease-in-out;
 }
-.mom-whole-btn:hover .mom-right-btn{
+.mom-whole-btn1:hover .mom-right-btn{
     height: 0;
+    background: blue;
 }
 
-.mom-whole-btn svg{
+.mom-whole-btn1 svg{
     scale: 1.2;
 }
-.mom-whole-btn .mom-arrow{
+.mom-whole-btn1 .mom-arrow{
     position: absolute;
-    right: 22px;
+    right: 47.5px;
     top: 55%;
     transform: translateY(-50%);
     transition: all .2s ease-in-out;
 }
-.mom-whole-btn:hover .mom-arrow{
-   left: -16.5px;
+.mom-whole-btn1:hover .mom-arrow{
+    left: -16.5px;
+    /*background: blue;*/
+
 }
-.mom-whole-btn .mom-bg-inner-text{
+.mom-whole-btn1 .mom-bg-inner-text{
     position: absolute;
     top: 50px;
     background: #1d1d23;
@@ -56,18 +61,18 @@
     justify-content: center;
     align-items: center;
 }
-.mom-whole-btn:hover .mom-bg-inner-text{
+.mom-whole-btn1:hover .mom-bg-inner-text{
     top: 0;
 }
-.mom-whole-btn .mom-inner-text{
+.mom-whole-btn1 .mom-inner-text{
     position: relative;
     top: 0px;
     transition: all .2s ease-in-out;
 }
-.mom-whole-btn:hover .mom-inner-text{
+.mom-whole-btn1:hover .mom-inner-text{
     top: -10px;
 }
-.mom-whole-btn .mom-right-arrow{
+.mom-whole-btn1 .mom-right-arrow{
     position: absolute;
     right: 20px;
     top: 55%;
@@ -75,6 +80,6 @@
     transform: translateY(-50%);
     transition: all .2s ease-in-out;
 }
-.mom-whole-btn:hover .mom-right-arrow{
+.mom-whole-btn1:hover .mom-right-arrow{
     scale: 1;
 }
