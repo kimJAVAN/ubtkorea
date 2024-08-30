@@ -10,6 +10,7 @@ import BrxeSection from "./BrxeSection/brxe-section.jsx";
 import BrxeYwnrmc from "./BrxeYwnrmc/brxe-ywnrmc.jsx"
 import LineMovingSection from '../Main/LineMovingSection/LineMovingSection.jsx';
 import MoveChangeText from './MoveChangeText/MoveChangeText.jsx';
+import MomLastSection from './MomLastSection/MomLastSection.jsx';
 export default function Main4Container(props) {
     const {
         windowWidth
@@ -26,6 +27,7 @@ export default function Main4Container(props) {
             <MomHiddenSwiper />
             <BrxeSection/>
             <BrxeYwnrmc/>
+            <MomLastSection />
             <Footer />
         </>
 
