@@ -6,7 +6,8 @@ import MomCardsNews from "./MomCardsNews/MomCardsNews.jsx";
 import MomHiddenSwiper from "./MomHiddenSwiper/MomHiddenSwiper.jsx";
 import MomXScroll from './MomXScroll/MomXScroll.jsx';
 // import TestMainSection from "./test-main-section/TestMainSection.jsx";
-
+import BrxeSection from "./BrxeSection/brxe-section.jsx";
+import BrxeYwnrmc from "./BrxeYwnrmc/brxe-ywnrmc.jsx"
 export default function Main4Container(props) {
     const {
         windowWidth
@@ -19,6 +20,8 @@ export default function Main4Container(props) {
             <MomXScroll />
             <MomCardsNews />
             <MomHiddenSwiper />
+            <BrxeSection/>
+            <BrxeYwnrmc/>
             <Footer />
         </>
 

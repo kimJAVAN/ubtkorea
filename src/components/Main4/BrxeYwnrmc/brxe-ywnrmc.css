@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Youth';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//fastly.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
+    url('//fastly.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
+.youth * {
+    font-family: 'Youth', sans-serif;
+}
+.brxe-ywnrmc{
+    width: 100%;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover{
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+flex-direction: column;
+    justify-content: space-between;
+    height: 83vh;
+    padding-top: 13vh;
+    padding-bottom: 5vh;
+    z-index: 0;
+    /*margin-top: -5px;*/
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .top-txt{
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+    color: #212121;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container{
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-list-box{
+    display: flex;
+    flex-direction: column;
+width: 20%;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-list-box .brxe-persent{
+    display: flex;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .top-context{
+    width: 100%;
+
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .slide-up2{
+    align-self: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Youth";
+    font-weight: 600;
+    font-size: 2.5vw;
+    font-style: normal;
+    line-height: 2.5vw;
+    color: #212121;
+    /*width: 60%;*/
+    text-align: center;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .numper{
+    align-self: flex-end;
+    flex-shrink: 1;
+    color: #0038ff;
+    font-size: 2.5vw;
+    font-family: "Youth";
+    font-weight: 300;
+    line-height: 2.5vw;
+
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .num{
+    font-size: 4vw;
+    font-family: "Youth";
+    font-weight: 300;
+    line-height: 3.7vw;
+    text-align: center;
+    letter-spacing: -0.1vw;
+    align-self: flex-end;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .btn-left{
+    width: 10vw;
+    background-color: #0038ff;
+    justify-content: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    border-radius: 2vw;
+    position: relative;
+    align-items: center;
+    height: 5vh;
+    color: #ffffff;
+
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .btn-ritht{
+    display: flex;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    justify-content: center;
+    /*background-color: rgba(15, 15, 15, 0);*/
+    background-color: #0038ff;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-pasrwv{
+    width: 100%;
+    display: flex;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-link{
+    display: flex;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-image{
+
+    width: 0.7vw;
+    align-self: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 0.7vw;
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .box-cover{
+     display: flex;
+     width: 100%;
+     column-gap: 12vw;
+ }

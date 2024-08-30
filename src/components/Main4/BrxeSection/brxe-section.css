@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Youth';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//fastly.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
+    url('//fastly.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
+.youth * {
+    font-family: 'Youth', sans-serif;
+}
+.brxe-section{
+
+    width: 100%;
+    background-color: #080808;
+}
+.brxe-section .brxe-container{
+    width:100%;
+    padding-top: 15vh;
+    padding-right: 2vw;
+    padding-bottom: 7vh;
+    padding-left: 2vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.brxe-section .left-box{
+    margin-right: 0;
+    margin-left: 0;
+    width: 20%;
+}
+.brxe-section .subh-anim2{
+    color: #f5f5f5;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+.brxe-section .brxe-jilxcl{
+    margin-right: 0;
+    margin-left: 0;
+    width: 60%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.brxe-section .brxe-jilxcl .brxe-text{
+    align-self: flex-start;
+
+}
+.brxe-section .brxe-jilxcl .brxe-text span{
+    font-size: 1.75vw;
+    line-height: 2.25vw;
+    font-family: "Youth";
+    color: rgba(245, 245, 245, 0.32);
+    font-weight: 500;
+}
+.brxe-section .brxe-jilxcl .brxe-text .white{
+    color: #ffffff;
+}
+
+.brxe-section .brxe-rhbvyi{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start !important;
+    align-items: flex-start;
+    column-gap: 2vw;
+}
+.brxe-section .buton-cu-cerc{
+    padding-right: 0;
+    padding-left: 0;
+    align-self: center !important;
+    background-color: #0038ff;
+    margin-right: 0;
+    margin-left: 0;
+    width: 10vw;
+    border-radius: 2vw;
+    position: relative;
+
+    height: 5vh;
+}
+.brxe-section  .brxe-heading{
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+    padding-top: 1.75vh;
+    padding-bottom: 1.75vh;
+    color: #f5f5f5;
+    font-size: 0.9vw;
+    text-transform: capitalize;
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 0.8vw;
+    z-index: 0;
+}
+/*아래냐용에 적용하는 스타일
+    translate: none;
+    rotate: none;
+    scale: none;
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(-300%, 0%) translate(0px, -1.35vw) rotate(45deg) scale(0, 0);*/
+.brxe-section .brxe-image{
+    align-self: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 0.7vw;
+    height: 0.7vw;
+}
+.brxe-section .brxe-rhbvyi{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-start !important;
+    align-items: flex-start;
+    column-gap: 2vw;
+    padding-top: 6vh;
+}
+.brxe-section .brxe-asapip{
+    display: flex;
+}
+.brxe-section .brxe-asapip .brxe-gdcxec{
+    padding-right: 0;
+    padding-left: 0;
+    align-self: center !important;
+    background-color: #0038ff;
+    margin-right: 0;
+    margin-left: 0;
+    width: 10vw;
+    border-radius: 2vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+.brxe-section .brxe-asapip .cerc-but-cu-cerc{
+    justify-content: center;
+    align-self: center !important;
+    width: 5vh;
+    height: 5vh;
+    /*background-color: rgba(15, 15, 15, 0);*/
+    background-color: #0038ff;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    border-radius: 100px;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+}
+.brxe-section .t2-but-cerc{
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+    padding-top: 1.75vh;
+    padding-bottom: 1.75vh;
+    color: #f5f5f5;
+    font-size: 0.9vw;
+    text-transform: capitalize;
+    font-family: "Gilroy";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 0.8vw;
+    z-index: 0;
+}
