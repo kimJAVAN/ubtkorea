@@ -6,6 +6,10 @@ import ScrollTrigger from "gsap/scrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+
 
 export default function MomMainUp() {
 
@@ -63,14 +67,63 @@ export default function MomMainUp() {
                         </p>
                     </div>
                     <div className={'btm-right-video'}>
-                        <div className={'btm-video-wrapper'}>
-                            <video src={'/mom-main-up/mainvid.mp4'} loop muted playsInline autoPlay />
-                        </div>
-                        <p className={'btm-right-video-text'}>Main Product</p>
-                        <div className={'btm-discover-btn'}>
-                            <p>DISCOVER</p>
-                            <p>DISCOVER</p>
-                        </div>
+                        <Swiper
+                            autoplay={{
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            }}
+                            slidesPerView={1}
+                            speed={1000}
+                            spaceBetween={0}
+                            loop={true}
+
+                            className='main-img-swiper'
+                            modules={[Autoplay]}
+                        >
+                            <SwiperSlide
+                                className='main-img-slide'
+                            >
+                                <div className={'btm-video-wrapper'}>
+                                    <img src="/mom-main-up/1.png" alt="" />
+                                </div>
+                                <p className={'btm-right-video-text'}>Main Product</p>
+                                <div className={'btm-discover-btn'}>
+                                    <p>DISCOVER</p>
+                                    <p>DISCOVER</p>
+                                </div>
+
+                            </SwiperSlide>
+                            <SwiperSlide
+                                className='main-img-slide'
+                            >
+                                <div className={'btm-video-wrapper'}>
+                                    <img src="/mom-main-up/2.png" alt="" />
+                                </div>
+                                <p className={'btm-right-video-text'}>Main Product</p>
+                                <div className={'btm-discover-btn'}>
+                                    <p>DISCOVER</p>
+                                    <p>DISCOVER</p>
+                                </div>
+
+                            </SwiperSlide>
+                            <SwiperSlide
+                                className='main-img-slide'
+                            >
+                                <div className={'btm-video-wrapper'}>
+                                    <img src="/mom-main-up/3.png" alt="" />
+                                </div>
+                                <p className={'btm-right-video-text'}>Main Product</p>
+                                <div className={'btm-discover-btn'}>
+                                    <p>DISCOVER</p>
+                                    <p>DISCOVER</p>
+                                </div>
+
+                            </SwiperSlide>
+
+                        </Swiper>
+
+
+
                     </div>
                 </div>
             </div>

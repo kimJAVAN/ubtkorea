@@ -4,11 +4,13 @@
     position: relative;
     overflow: hidden;
 }
+
 .mom-main-up .mom-main-wrapper {
     width: 100%;
     height: 100%;
 }
-.mom-main-up .mom-main-ani-text-wrap{
+
+.mom-main-up .mom-main-ani-text-wrap {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -18,43 +20,50 @@
     align-items: center;
     font-size: 64px;
     font-weight: 600;
-    animation : goUpText 1s ease-in-out 1.7s forwards;
+    animation: goUpText 1s ease-in-out 1.7s forwards;
     overflow: hidden;
 }
+
 @keyframes goUpText {
-    100%{
+    100% {
         height: 0vh;
         font-size: 48px;
     }
 }
-.mom-main-up .mom-main-ani-text > span{
+
+.mom-main-up .mom-main-ani-text>span {
     min-width: 20px;
 }
-.mom-main-up .mom-main-bg-wrapper{
+
+.mom-main-up .mom-main-bg-wrapper {
     position: absolute;
     width: 100%;
     height: 0vh;
     bottom: 0;
-    animation : goUpVideo 1s ease-in-out 1.7s forwards;
+    animation: goUpVideo 1s ease-in-out 1.7s forwards;
 }
+
 @keyframes goUpVideo {
-    100%{
+    100% {
         height: 100vh;
     }
 }
-.mom-main-up .mom-main-bg-wrapper > video{
+
+.mom-main-up .mom-main-bg-wrapper>video {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.mom-main-up .mom-btm-left-text-wrap{
+
+.mom-main-up .mom-btm-left-text-wrap {
     position: absolute;
     bottom: 0px;
     left: 40px;
     overflow: hidden;
     margin-bottom: 30px;
 }
-.mom-main-up .mom-btm-top-btn{
+
+.mom-main-up .mom-btm-top-btn {
     background: blue;
     padding: 5px 8px;
     border-radius: 50px;
@@ -64,10 +73,12 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-.mom-main-up .mom-btm-left-contexts{
+
+.mom-main-up .mom-btm-left-contexts {
     line-height: 24px;
 }
-.mom-main-up .mom-btm-center-wrap{
+
+.mom-main-up .mom-btm-center-wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,17 +91,20 @@
 
     margin-bottom: 30px;
 }
-.mom-main-up .center-large-text{
+
+.mom-main-up .center-large-text {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     line-height: 52px;
     margin-bottom: 20px;
 }
-.mom-main-up .center-small-text{
+
+.mom-main-up .center-small-text {
     text-align: center;
 }
-.mom-main-up .btm-right-video{
+
+.mom-main-up .btm-right-video {
     position: absolute;
     z-index: 3;
     width: 360px;
@@ -99,26 +113,48 @@
     overflow: hidden;
     bottom: 0;
     right: 40px;
-    
+
     margin-bottom: 30px;
+
+    background-color: #fff;
 }
-.mom-main-up .btm-video-wrapper{
+
+.mom-main-up .main-img-swiper {
     width: 100%;
     height: 100%;
 }
-.mom-main-up .btm-video-wrapper > video{
+
+.mom-main-up .btm-video-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.mom-main-up .main-img-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.mom-main-up .btm-video-wrapper>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.mom-main-up .btm-right-video-text{
+
+.mom-main-up .btm-video-wrapper>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mom-main-up .btm-right-video-text {
     position: absolute;
     z-index: 4;
     top: 10px;
     right: 10px;
     font-size: 32px;
 }
-.mom-main-up .btm-discover-btn{
+
+.mom-main-up .btm-discover-btn {
     background: black;
     position: absolute;
     bottom: 10px;
@@ -129,18 +165,21 @@
     font-size: 14px;
     border-radius: 5px;
 }
-.mom-main-up .btm-discover-btn > p{
+
+.mom-main-up .btm-discover-btn>p {
     margin-bottom: 3px;
 }
+
 .mom-main-up .mom-btm-left-text-wrap,
 .mom-main-up .mom-btm-center-wrap,
-.mom-main-up .btm-right-video{
+.mom-main-up .btm-right-video {
     scale: 0;
     color: white;
-    animation : scaleUpDiv .8s ease-in-out 1.7s forwards;
+    animation: scaleUpDiv .8s ease-in-out 1.7s forwards;
 }
+
 @keyframes scaleUpDiv {
-    100%{
+    100% {
         scale: 1;
     }
 }
