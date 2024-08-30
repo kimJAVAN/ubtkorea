@@ -6,18 +6,20 @@
     color: white;
     z-index: 2;
 }
+
 .mom-scale-one .mom-scale-wrapper {
     width: 100%;
     height: 100%;
 }
 
-.mom-scale-one .mom-sticky-wrapper{
+.mom-scale-one .mom-sticky-wrapper {
     width: 100%;
     height: 100vh;
     top: 0;
     position: sticky;
 }
-.mom-scale-one .mom-go-to-top-unit{
+
+.mom-scale-one .mom-go-to-top-unit {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -27,58 +29,69 @@
     border-radius: 50px;
     overflow: hidden;
 }
-.mom-scale-one .mom-top-title-wrapper{
+
+.mom-scale-one .mom-top-title-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
 }
-.mom-scale-one .mom-loding-wrapper{
+
+.mom-scale-one .mom-loding-wrapper {
     width: 100%;
     height: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.mom-scale-one .mom-top-texts-wrapper{
+
+.mom-scale-one .mom-top-texts-wrapper {
     padding: 0px 50px;
 }
-.mom-scale-one .mom-center-load{
+
+.mom-scale-one .mom-center-load {
     background: blue;
     width: 0%;
     height: 100%;
 }
-.mom-scale-one .mom-top-cate-wrap{
+
+.mom-scale-one .mom-top-cate-wrap {
     display: flex;
     gap: 15px;
     scale: .1;
 }
-.mom-scale-one .mom-top-title{
+
+.mom-scale-one .mom-top-title {
     font-size: 400px;
     font-weight: 500;
     word-break: keep-all;
 }
-.mom-scale-one .mom-top-cate-unit{
+
+.mom-scale-one .mom-top-cate-unit {
     background: #0e0e0e;
     padding: 10px 30px;
 }
-.mom-scale-one .mom-btm-wrapper{
+
+.mom-scale-one .mom-btm-wrapper {
     width: 100%;
     height: 100%;
 }
-.mom-scale-one .mom-btm-img-wrapper{
+
+.mom-scale-one .mom-btm-img-wrapper {
     width: 100%;
     height: calc(100vh - 130px);
     overflow: hidden;
     border-radius: 20px;
 }
-.mom-scale-one .mom-btm-img-wrapper > img{
+
+.mom-scale-one .mom-btm-img-wrapper>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.mom-scale-one .mom-btm-text-wrapper{
+
+.mom-scale-one .mom-btm-text-wrapper {
     position: absolute;
     bottom: 40px;
     display: flex;
@@ -86,11 +99,35 @@
     width: calc(100% - 100px);
     padding: 30px;
 }
-.mom-scale-one .mom-btm-small-text{
+
+.mom-scale-one .mom-btm-small-text {
     margin-bottom: 5px;
 }
-.mom-scale-one .mom-btm-larger-text{
+
+.mom-scale-one .mom-btm-larger-text {
     font-size: 54px;
     font-weight: 500;
     line-height: 58px;
+}
+
+.mom-scale-one .mom-top-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.mom-scale-one .mom-top-main-text{
+    font-size: 74px;
+    font-weight: bold;
+    line-height: 78px;
+}
+.mom-scale-one .mom-top-btn-wrap{
+    background: #454545;
+    padding: 5px 20px;
+    height: fit-content;
+    border-radius: 5px;
 }

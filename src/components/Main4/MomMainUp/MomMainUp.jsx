@@ -1,6 +1,6 @@
 import "./MomMainUp.css"
-import {useEffect, useRef, useState} from "react";
-import {wrap} from "gsap/gsap-core";
+import { useEffect, useRef, useState } from "react";
+import { wrap } from "gsap/gsap-core";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/scrollTrigger";
 
@@ -28,6 +28,7 @@ export default function MomMainUp() {
             <div className={'mom-main-wrapper'}>
                 <div className={'mom-main-ani-text-wrap'}>
                     <div className="mom-main-ani-text" ref={textRef}>
+                        <img src="/images/Main4/ubtlogo.png" alt="" />
                         {"UBT KOREA".split("").map((char, index) => (
                             <span key={index} style={{ display: "inline-block" }}>
                                 {char}
@@ -36,38 +37,36 @@ export default function MomMainUp() {
                     </div>
                 </div>
                 <div className={'mom-main-bg-wrapper'}>
-                    <video src={'/mom-main-up/video4.mp4'} loop muted playsInline autoPlay/>
+                    <video src={'/mom-main-up/video4.mp4'} loop muted playsInline autoPlay />
                 </div>
                 <div className={'mom-main-btm-text-wrapper'}>
                     <div className={'mom-btm-left-text-wrap'}>
                         <div className={'mom-btm-top-btn'}>
-                            <p>services</p>
+                            <p>Our Service</p>
                         </div>
                         <p className={'mom-btm-left-contexts'}>
-                            - UI/UX Design <br/>
-                            - Web Development <br/>
-                            - Ads Management
+                            - 프렌차이즈 건설업 <br />
+                            - 복지&폐쇄몰 온라인 마켓 <br />
+                            - 리퍼, 오프라인 매장 수출
                         </p>
                     </div>
                     <div className={'mom-btm-center-wrap'}>
                         <p className={'center-small-text'}>
-                            WE ARE THE ONLY
+                            Unidentified Beautiful Things
                         </p>
                         <p className={'center-large-text'}>
-                            Full Service Digital Agency Focused <br/>
-                            On Home & Design Businesses
+                            UBT KOREA <br />
+                            아직 알려지지 않은 아름다움
                         </p>
                         <p className={'center-small-text'}>
-                            Full Service Digital Agency Focused On Home & Design Businesses & Design Businesses<br/>
-                            Full Service Digital Agency Focused On Home & Design Businesses<br/>
-                            Full Service Digital Agency Focused On Home & Design Businesses & Design Businesses
+                            더 나은 더 합리적인 유통 전략을 고민하고 제품과 우리의 아름다움을 알려드리겠습니다
                         </p>
                     </div>
                     <div className={'btm-right-video'}>
                         <div className={'btm-video-wrapper'}>
                             <video src={'/mom-main-up/video4.mp4'} loop muted playsInline autoPlay />
                         </div>
-                        <p className={'btm-right-video-text'}>Vibe Interior</p>
+                        <p className={'btm-right-video-text'}>Main Product</p>
                         <div className={'btm-discover-btn'}>
                             <p>DISCOVER</p>
                             <p>DISCOVER</p>

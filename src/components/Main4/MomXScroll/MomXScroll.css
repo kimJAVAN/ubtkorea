@@ -62,7 +62,7 @@
     flex-direction: column;
     align-items: center;
 
-    margin-top: 56px;
+    margin-top: 60px;
 
     transition: .7s;
     opacity: 0;
@@ -82,7 +82,7 @@
 
 .mom-xscroll-section .mom-xscroll-title {
     font-size: 48px;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .mom-xscroll-section .mom-xscroll-contents {
@@ -114,6 +114,13 @@
 
 
     cursor: pointer;
+
+    scale: 0.9;
+}
+
+.mom-xscroll-section .mom-xscroll-box.active {
+    scale: 1;
+   
 }
 
 .mom-xscroll-section .mom-xscroll-boxdesc {
@@ -127,7 +134,7 @@
     text-align: center;
     line-height: 1;
 
-    margin-top: 8px;
+    margin-top: 30px;
 }
 
 .mom-xscroll-section .mom-xscroll-boxcontent {
@@ -167,7 +174,7 @@
 }
 
 .mom-xscroll-section .mom-xscroll-bar {
-    width: calc(100%/7);
+    width: calc(100%/5);
     height: 100%;
 
     border-radius: 50px;

@@ -8,6 +8,8 @@ import MomXScroll from './MomXScroll/MomXScroll.jsx';
 // import TestMainSection from "./test-main-section/TestMainSection.jsx";
 import BrxeSection from "./BrxeSection/brxe-section.jsx";
 import BrxeYwnrmc from "./BrxeYwnrmc/brxe-ywnrmc.jsx"
+import LineMovingSection from '../Main/LineMovingSection/LineMovingSection.jsx';
+import MoveChangeText from './MoveChangeText/MoveChangeText.jsx';
 export default function Main4Container(props) {
     const {
         windowWidth
@@ -16,8 +18,10 @@ export default function Main4Container(props) {
     return (
         <>
             <MomMainUp />
+            <LineMovingSection />
             <MomScaleOne />
             <MomXScroll />
+            <MoveChangeText />
             <MomCardsNews />
             <MomHiddenSwiper />
             <BrxeSection/>

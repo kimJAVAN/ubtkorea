@@ -8,7 +8,7 @@
     z-index: 1000;
     opacity: 0;
     animation: fadeInDown .5s ease-out forwards;
-    animation-delay: .5s;
+    animation-delay: 2.5s;
 }
 
 @keyframes fadeInDown {
@@ -40,7 +40,7 @@
 
 
 .chit-header .chit-header-container .chit-header-dato-logo {
-    height: 100%;
+    height: 90%;
     cursor: pointer;
     width: 150px;
 }

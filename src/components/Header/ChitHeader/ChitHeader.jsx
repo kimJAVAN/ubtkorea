@@ -87,6 +87,12 @@ export default function ChitHeader() {
         });
     }, []);
 
+    const navigate = useNavigate();
+
+    const onClickLogo = () => {
+        window.scrollTo(0, 0)
+        navigate('/4')
+    }
 
     // 글자색 변경을 위한 클래스 이름 결정
     const navClass = pathname.startsWith("/recipe") ? "black-text" : "";
@@ -99,12 +105,12 @@ export default function ChitHeader() {
         >
             <div className="chit-header-container pc-only">
                 <nav className="chit-header-nav pc-only">
-                    <a href="/main2">
-                    <div className="chit-header-dato-logo">
-                        <img src="images/Header/chit-header/logo.png" alt="" className="chit-header-dato-img" />
+                    <div className="chit-header-dato-logo"
+                        onClick={onClickLogo}
+                    >
+                        <img src="images/Header/chit-header/bluelogo.png" alt="" className="chit-header-dato-img" />
                         {/*<p className={`dato-logo-text`}>DATO</p>*/}
                     </div>
-                    </a>
                     <ul>
                         <li>
                             <div className={`chit-header-nav-link ${navClass}`}>
@@ -131,25 +137,25 @@ export default function ChitHeader() {
                         </li>
                         <li>
                             <div className={`chit-header-nav-link ${navClass}`}>
-                                    <NavLink
-                                        to="#"
-                                        className="header-nav-unit"
-                                        ref={(el) => (boxRefs.current[2] = el)}
-                                    >
-                                        NEWS
-                                    </NavLink>
-                                </div>
+                                <NavLink
+                                    to="#"
+                                    className="header-nav-unit"
+                                    ref={(el) => (boxRefs.current[2] = el)}
+                                >
+                                    NEWS
+                                </NavLink>
+                            </div>
                         </li>
                         <li>
                             <div className={`chit-header-nav-link ${navClass}`}>
-                                    <NavLink
-                                        to="#"
-                                        className="header-nav-unit"
-                                        ref={(el) => (boxRefs.current[3] = el)}
-                                    >
-                                        CONTACT
-                                    </NavLink>
-                                </div>
+                                <NavLink
+                                    to="#"
+                                    className="header-nav-unit"
+                                    ref={(el) => (boxRefs.current[3] = el)}
+                                >
+                                    CONTACT
+                                </NavLink>
+                            </div>
                         </li>
 
                         {/*<li className={`more`}>*/}

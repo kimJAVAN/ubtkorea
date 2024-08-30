@@ -12,6 +12,28 @@ const MomXScroll = () => {
 
     const [scrollActive, setScrollActive] = useState(false)
     const [titleActive, setTitleActive] = useState(false)
+    const [sizeActive, setSizeActive] = useState([
+        {
+            idx: 0,
+            active: false,
+        },
+        {
+            idx: 1,
+            active: false,
+        },
+        {
+            idx: 2,
+            active: false,
+        },
+        {
+            idx: 3,
+            active: false,
+        },
+        {
+            idx: 4,
+            active: false,
+        },
+    ])
 
 
     useEffect(() => {
@@ -58,158 +80,82 @@ const MomXScroll = () => {
                 scrub: true,
                 // markers: true,
             },
-            x: -2400
+            x: -1650
         })
 
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar1', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "10% top",
-                end: "20% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar1', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "12% top",
-                end: "20% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
+        sizeActive.forEach((item, index) => {
+            gsap.to(`.mom-xscroll-section .mom-xscroll-bar.bar${index + 1}`, {
+                scrollTrigger: {
+                    trigger: '.mom-xscroll-section',
+                    start: `${10 + index * 10}% top`,
+                    end: `${20 + index * 10}% top`,
+                    scrub: true,
+                    onEnter: () => {
+                        setSizeActive(prev => 
+                            prev.map((el, idx) => 
+                                idx === index ? { ...el, active: true } : el
+                            )
+                        );
+                    },
+                    onLeaveBack: () => {
+                        setSizeActive(prev => 
+                            prev.map((el, idx) => 
+                                idx === index ? { ...el, active: false } : el
+                            )
+                        );
+                    }
+                },
+                scaleX: 1
+            });
 
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar2', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "20% top",
-                end: "30% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar2', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "22% top",
-                end: "30% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
-
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar3', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "30% top",
-                end: "40% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar3', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "32% top",
-                end: "40% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
-
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar4', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "40% top",
-                end: "50% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar4', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "42% top",
-                end: "50% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
-
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar5', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "50% top",
-                end: "60% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar5', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "52% top",
-                end: "60% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
-
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar6', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "60% top",
-                end: "70% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar6', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "62% top",
-                end: "70% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
-
-        gsap.to('.mom-xscroll-section .mom-xscroll-bar.bar7', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "70% top",
-                end: "80% top",
-                scrub: true,
-                // markers: true,
-            },
-            scaleX: 1
-        })
-        gsap.to('.mom-xscroll-section .mom-xscroll-innerbar.innerbar7', {
-            scrollTrigger: {
-                trigger: '.mom-xscroll-section',
-                start: "72% top",
-                end: "80% top",
-                scrub: true,
-                // markers: true,
-            },
-            width: '100%'
-        })
+            gsap.to(`.mom-xscroll-section .mom-xscroll-innerbar.innerbar${index + 1}`, {
+                scrollTrigger: {
+                    trigger: '.mom-xscroll-section',
+                    start: `${12 + index * 10}% top`,
+                    end: `${20 + index * 10}% top`,
+                    scrub: true,
+                },
+                width: '100%'
+            });
+        });
 
 
     }, [])
+
+
+    const list = [
+        {
+            header: 'LIFESTYLE PRODUCTS',
+            title1: '숨겨진 특별한 가치',
+            title2: '발견하는 즐거움',
+            desc: '일상에서 발견하는 숨겨진 특별함이 당신의 삶에 깊이 있는 가치를 부여합니다.',
+        },
+        {
+            header: 'HOME APPLIANCES',
+            title1: '첨단기능 & 합리적 가격',
+            title2: '편리함의 새로운 기준',
+            desc: '일상 속 편리함을 첨단 기능으로 극대화하며 합리적 가격으로 더 큰 만족을 제공합니다.',
+        },
+        {
+            header: 'BEAUTY & FASHION',
+            title1: '우리만의 아름다움',
+            title2: '뷰티와 패션의 조화 ',
+            desc: '독창적 디자인으로 당신의 개성을 돋보이게 하여 스타일에 새로운 차원을 더합니다.',
+        },
+        {
+            header: 'HOUSEHOLD ITEMS',
+            title1: '품격있는 일상을 위한',
+            title2: '트랜디한 디자인',
+            desc: '가정용품의 실용성과 미학이 조화를 이루어 일상을 예술적으로 변화시킵니다.',
+        },
+        {
+            header: 'CHANNEL INNOVATION',
+            title1: '보다 편리하고 합리적인',
+            title2: '차별화된 유통 전략',
+            desc: '혁신적인 전략으로 고객과 제품을 더욱 가까이 연결하여 최상의 접근성을 제공합니다.',
+        },
+
+    ]
 
 
     return (
@@ -229,26 +175,24 @@ const MomXScroll = () => {
                     </div>
                     <div className={`mom-xscroll-titlewrap ${titleActive && 'active'}`}>
                         <p className="mom-xscroll-desc">
-                            MORE ABOUT US
+                            BUSINESS AREAS
                         </p>
-                        <h2 className='mom-xscroll-title'>A fresh team, full of</h2>
-                        <h2 className='mom-xscroll-title'>energy and ready to</h2>
-                        <h2 className='mom-xscroll-title'>make big things happen</h2>
+                        <h2 className='mom-xscroll-title'>자신없는 사업은 시작하지 않습니다</h2>
+                        <h2 className='mom-xscroll-title'>우리가 시작한 사업은 모든 것이 다릅니다</h2>
+                        {/* <h2 className='mom-xscroll-title'>make big things happen</h2> */}
                     </div>
                     <div className="mom-xscroll-contents">
-                        {[1, 2, 3, 4, 5, 6, 7].map((el, idx) => (
-                            <div className="mom-xscroll-box" key={idx}>
+                        {list.map((el, idx) => (
+                            <div className={`mom-xscroll-box ${sizeActive[idx].active && 'active'}`} key={idx}>
                                 <p className="mom-xscroll-boxdesc">
-                                    WE REALLY ARE
+                                    {el.header}
                                 </p>
                                 <p className="mom-xscroll-boxtitle">
-                                    Those Partners <br />
-                                    You Can Trust
+                                    {el.title1} <br />
+                                    {el.title2}
                                 </p>
                                 <p className="mom-xscroll-boxcontent">
-                                    We are here to make your life easier! Our purpose
-                                    We are here to make your life easier! Our purpose
-                                    We are here to make your life easier! Our purpose
+                                    {el.desc}
                                 </p>
                                 <span className='mom-xscroll-boxline'></span>
                             </div>
@@ -271,12 +215,12 @@ const MomXScroll = () => {
                         <div className="mom-xscroll-bar bar5">
                             <div className="mom-xscroll-innerbar innerbar5"></div>
                         </div>
-                        <div className="mom-xscroll-bar bar6">
+                        {/* <div className="mom-xscroll-bar bar6">
                             <div className="mom-xscroll-innerbar innerbar6"></div>
                         </div>
                         <div className="mom-xscroll-bar bar7">
                             <div className="mom-xscroll-innerbar innerbar7"></div>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>

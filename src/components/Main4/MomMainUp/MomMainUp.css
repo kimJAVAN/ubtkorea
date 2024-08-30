@@ -52,6 +52,7 @@
     bottom: 0px;
     left: 40px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 .mom-main-up .mom-btm-top-btn{
     background: blue;
@@ -76,6 +77,8 @@
     left: 50%;
     transform: translateX(-50%);
     overflow: hidden;
+
+    margin-bottom: 30px;
 }
 .mom-main-up .center-large-text{
     font-size: 48px;
@@ -96,6 +99,8 @@
     overflow: hidden;
     bottom: 0;
     right: 40px;
+    
+    margin-bottom: 30px;
 }
 .mom-main-up .btm-video-wrapper{
     width: 100%;
