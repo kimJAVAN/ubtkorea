@@ -36,6 +36,7 @@ flex-direction: column;
     letter-spacing: 2px;
     padding-top: 3px;
     padding-bottom: 3px;
+    text-align: center;
 }
 
 .brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container{
@@ -53,6 +54,8 @@ width: 20%;
 }
 .brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-list-box .brxe-persent{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .brxe-ywnrmc .rxe-ywnrmc-cover .top-context{
     width: 100%;

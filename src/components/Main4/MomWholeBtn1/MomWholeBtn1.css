@@ -21,6 +21,9 @@
     position: relative;
     overflow: hidden;
 }
+.mom-whole-btn1:hover .mom-left-btn{
+    background: blue;
+}
 .mom-whole-btn1 .mom-right-btn{
     height: 43px;
     /*background: blue;*/
@@ -51,7 +54,8 @@
 .mom-whole-btn1 .mom-bg-inner-text{
     position: absolute;
     top: 50px;
-    background: #1d1d23;
+    /*background: #1d1d23;*/
+    background-color: blue;
     width: 100%;
     height: 43px;
     border-radius: 50px;
@@ -68,6 +72,13 @@
     position: relative;
     top: 0px;
     transition: all .2s ease-in-out;
+}
+
+.mom-whole-btn1 .mom-inner-text.black {
+    color: black;
+}
+.mom-whole-btn1 .mom-arrow.darkened {
+    filter: brightness(0.5);
 }
 .mom-whole-btn1:hover .mom-inner-text{
     top: -10px;

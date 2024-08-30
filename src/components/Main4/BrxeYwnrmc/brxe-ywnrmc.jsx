@@ -38,14 +38,14 @@ return (
     <div className={"rxe-ywnrmc-cover"}  ref={coverRef}>
         <div className={"brxe-container"}>
             <p className={"top-txt smlet"} >
-                SOME OF OUR RESULTS
+                Company Strength
             </p>
             <p className={"top-context"}>
               <div className={"brxe-heading slide-up2 smlet"}>
-                  We Are Confident in What We Do, And Data
+                  수치로 증명된 차별화된 품질
               </div>
                 <div className={"brxe-heading slide-up2 smlet"}>
-                    Supports Our Approach
+                    신뢰할 수 있는 유통 파트너 UBT KOREA
                 </div>
             </p>
         </div>
@@ -53,45 +53,47 @@ return (
             <div className={"box-cover"}>
             <div className={'brxe-list-box smlet'}>
                 <div className={"brxe-persent "}>
-                    <p className={"num"}>100</p>
-                    <p className={"numper"}>%</p>
+                    <p className={"num"}>50,000
+
+                        </p>
+                    <p className={"numper"}>+α</p>
                 </div>
                 <div className={"bottom-txt-box"}>
                     <p className={"bottom-txt top-txt"}>
-                        SATISFIED CLIENTS
+                        제품 보유 수량
                     </p>
                 </div>
             </div>
             <div className={'brxe-list-box smlet'}>
                 <div className={"brxe-persent"}>
-                    <p className={"num"}>100</p>
+                    <p className={"num"}>96.9</p>
                     <p className={"numper"}>%</p>
                 </div>
                 <div className={"bottom-txt-box"}>
                     <p className={"bottom-txt top-txt"}>
-                        SATISFIED CLIENTS
+                        고객 만족도
                     </p>
                 </div>
             </div>
             <div className={'brxe-list-box smlet'}>
                 <div className={"brxe-persent"}>
-                    <p className={"num"}>100</p>
+                    <p className={"num"}>98.3</p>
                     <p className={"numper"}>%</p>
                 </div>
                 <div className={"bottom-txt-box"}>
                     <p className={"bottom-txt top-txt"}>
-                        SATISFIED CLIENTS
+                        재방문율
                     </p>
                 </div>
             </div>
             <div className={'brxe-list-box smlet'}>
                 <div className={"brxe-persent"}>
-                    <p className={"num"}>100</p>
+                    <p className={"num"}>92.5</p>
                     <p className={"numper"}>%</p>
                 </div>
                 <div className={"bottom-txt-box"}>
                     <p className={"bottom-txt top-txt"}>
-                        SATISFIED CLIENTS
+                        재구매율
                     </p>
                 </div>
             </div>
@@ -104,7 +106,7 @@ return (
                     <MomWholeBtn name={'Get In Touch'}/>
                 </NavLink>
                     <NavLink to={""} className={"brxe-link"}>
-                        <MomWholeBtn1 name={'Service'}/>
+                        <MomWholeBtn1 name={'Service'} color={'black'}/>
                     </NavLink>
                 </div>
             </div>

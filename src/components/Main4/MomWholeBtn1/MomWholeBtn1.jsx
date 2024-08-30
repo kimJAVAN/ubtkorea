@@ -11,7 +11,8 @@ import { GoArrowUpRight } from "react-icons/go";
 export default function MomWholeBtn1(props) {
 
     const btnName = props.name
-    
+    const color = props.color
+
     useEffect(() => {
 
     }, []);
@@ -20,7 +21,7 @@ export default function MomWholeBtn1(props) {
         <div className={`mom-whole-btn1`}>
             <div className={'mom-btn-wrapper'}>
                 <div className={'mom-left-btn'}>
-                    <p className={'mom-inner-text'}>
+                    <p className={`mom-inner-text ${color === 'black' ? 'black' : ''}`}>
                         {btnName}
                     </p>
                     <p className={'mom-bg-inner-text'}>
@@ -31,7 +32,22 @@ export default function MomWholeBtn1(props) {
                     </div>
                 </div>
                 <div className={'mom-right-btn'}></div>
-                <div className={'mom-arrow'}><GoArrowUpRight /></div>
+
+                {color === 'black' ?
+                    <div className={`mom-arrow`}>
+                        <GoArrowUpRight
+                            style={{color: 'black'}}
+                        />
+                    </div>
+                    :
+                    <div className={`mom-arrow`}>
+                        <GoArrowUpRight
+
+                        />
+                    </div>
+                }
+
+
             </div>
         </div>
     )

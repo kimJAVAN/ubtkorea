@@ -38,22 +38,38 @@ export default function BrxeSection() {
                 <div  className="brxe-container" ref={listRef}>
                     <div className="left-box smlet">
 
-                        <p className="subh-anim2">OUR
-                            PURPOSE</p>
+                        <p className="subh-anim2">CEO MESSAGE</p>
                     </div>
                     <div  className="brxe-jilxcl">
                         <div  className="brxe-right">
-                            <div  className="brxe-text">
-                                <p className={"smlet"}>
-                                    <span className={"white"} >We’re all about leveling up every part of</span>
+                            <div className="brxe-text">
+                                <div className={"smlet"}>
+                                    <p className={"white"}>안녕하십니까,
+                                    </p>
 
-                                    <span >your business in the digital landscape,</span>
+                                    <p>저희 UBT Korea를 찾아주신 여러분께 진심으로 감사의 말씀을 드립니다.
+                                        UBT Korea는 아직 세상에 널리 알려지지 않은 아름다움을 발견하고, 이를 고객 여러분과 공유하기 위해 설립되었습니다.
 
-                                    <span className={"white"}> making sure that we do everything necessary to reach your objectives</span>
+                                    </p>
 
-                                    <span >and also make you stand out</span>
-                                   
-                                    <span className={"white"}> in the crowd.</span></p>
+                                    <p className={"white"}> 우리는 일상 속에서 발견되지 않은 가치와 매력을 지닌 제품들을 발굴하여 더 많은 사람들에게 알리고자 합니다.
+                                    </p>
+
+                                    <p>우리의 목표는 단순한 소비를 넘어, 고객의 삶 속에서 더 큰 가치를 창출하는 것입니다.
+
+                                    </p>
+
+                                    <p className={"white"}>UBT Korea는 혁신과 열정을 바탕으로 고객의 기대를 뛰어넘는 제품과 경험을 제공하며, 새로운 아름다움을
+                                        함께 만들어 나가겠습니다.
+
+
+                                        UBT Korea CEO 김성학</p>
+                                    <p> 앞으로도 많은 관심과 성원을 부탁드리며, 여러분의 일상 속에서 작은 아름다움을 발견할 수 있도록 최선을 다하겠습니다.
+                                        감사합니다.
+
+                                    </p>
+                                </div>
+
                             </div>
                             <div className="brxe-rhbvyi smlet">
                                 {/*트랜지션*/}

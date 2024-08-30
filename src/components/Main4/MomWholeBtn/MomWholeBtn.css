@@ -7,6 +7,7 @@
     cursor: pointer;
 }
 .mom-whole-btn .mom-btn-wrapper {
+    position: relative;
     width: 100%;
     height: fit-content;
     display: flex;
@@ -35,13 +36,15 @@
 }
 .mom-whole-btn .mom-arrow{
     position: absolute;
-    right: 22px;
+    right: 14px;
     top: 55%;
     transform: translateY(-50%);
     transition: all .2s ease-in-out;
 }
 .mom-whole-btn:hover .mom-arrow{
    left: -16.5px;
+
+
 }
 .mom-whole-btn .mom-bg-inner-text{
     position: absolute;
@@ -58,6 +61,7 @@
 }
 .mom-whole-btn:hover .mom-bg-inner-text{
     top: 0;
+
 }
 .mom-whole-btn .mom-inner-text{
     position: relative;
