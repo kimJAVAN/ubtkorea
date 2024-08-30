@@ -1,0 +1,209 @@
+.mom-xscroll-section {
+    position: relative;
+    width: 100%;
+    height: 400vh;
+    padding-top: 160px;
+
+    color: white;
+}
+
+.mom-xscroll-section .mom-xscroll-sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    /* padding: 10px 40px 0; */
+}
+
+.mom-xscroll-section .mom-xscroll-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+
+    filter: brightness(0.5);
+}
+
+.mom-xscroll-section .mom-xscroll-up {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+    overflow: hidden;
+}
+
+.mom-xscroll-section .mom-xscroll-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: 1s;
+    opacity: 0;
+
+    padding: 10px 40px 0;
+
+}
+
+.mom-xscroll-section .mom-xscroll-topleft.active {
+    opacity: 1;
+}
+
+.mom-xscroll-section .mom-xscroll-hiddentext {
+    font-size: 40px;
+}
+
+.mom-xscroll-section .mom-xscroll-titlewrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 56px;
+
+    transition: .7s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.mom-xscroll-section .mom-xscroll-titlewrap.active {
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+.mom-xscroll-section .mom-xscroll-desc {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.mom-xscroll-section .mom-xscroll-title {
+    font-size: 48px;
+    line-height: 1;
+}
+
+.mom-xscroll-section .mom-xscroll-contents {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    gap: 20px;
+
+    padding-left: 1500px;
+
+    transform: translateX(0px);
+}
+
+
+.mom-xscroll-section .mom-xscroll-box {
+    width: 380px;
+    height: 365px;
+
+    background-color: rgba(14, 14, 14, 0.76);
+    border-radius: 20px;
+
+    padding: 65px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: .7s;
+
+
+    cursor: pointer;
+}
+
+.mom-xscroll-section .mom-xscroll-boxdesc {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.mom-xscroll-section .mom-xscroll-boxtitle {
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+
+    margin-top: 8px;
+}
+
+.mom-xscroll-section .mom-xscroll-boxcontent {
+    padding: 26px 0px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.mom-xscroll-section .mom-xscroll-boxline {
+    display: inline-block;
+    background-color: #fff;
+    width: 100px;
+    height: 1px;
+
+    transition: .5s;
+}
+
+
+.mom-xscroll-section .mom-xscroll-box:hover .mom-xscroll-boxline {
+    width: 0px;
+}
+
+.mom-xscroll-section .mom-xscroll-box:hover {
+    padding: 45px 20px 65px;
+
+}
+
+.mom-xscroll-section .mom-xscroll-barwrap {
+    position: absolute;
+    top: 92%;
+    width: 100%;
+    padding: 0 100px;
+    height: 10px;
+
+    display: flex;
+    gap: 1px;
+}
+
+.mom-xscroll-section .mom-xscroll-bar {
+    width: calc(100%/7);
+    height: 100%;
+
+    border-radius: 50px;
+    background-color: #fff;
+
+    overflow: hidden;
+    transform-origin: left;
+    transform: scaleX(0);
+
+}
+
+
+.mom-xscroll-section .mom-xscroll-innerbar {
+    width: 0%;
+    height: 100%;
+    background-color: #0038ff;
+    border-radius: 50px;
+
+}
+
+.mom-xscroll-section .mom-xscroll-topshadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 76%);
+}
+
+.mom-xscroll-section .mom-xscroll-bottomshadow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 76%);
+}
