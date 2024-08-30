@@ -188,19 +188,19 @@ export default function MomScaleOne() {
                                 <p className={'mom-top-title'}>Franchise Construction</p>
                                 <div className={'mom-top-cate-wrap'}>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#BRAND POWER</p>
                                     </div>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#GROWTH PARTNER</p>
                                     </div>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#COLLABORATION</p>
                                     </div>
                                 </div>
                             </div>
                             <div className={'mom-btm-wrapper'}>
                                 <div className={'mom-btm-img-wrapper'}>
-                                    <img src={'/mom-scale-one/1.jpg'} alt={'UBT'} />
+                                    <img src={'/mom-scale-one/1.png'} alt={'UBT'} />
                                 </div>
                                 <div className={'mom-btm-text-wrapper'}>
                                     <div className={'mom-btm-left-text-wrap'}>
@@ -211,7 +211,7 @@ export default function MomScaleOne() {
                                         </p>
                                     </div>
                                     <div className={'mom-btn-wrapper'}>
-                                        <MomWholeBtn name={'Learn more'} />
+                                        <MomWholeBtn name={'Learn more'}/>
                                     </div>
                                 </div>
                             </div>
@@ -226,19 +226,19 @@ export default function MomScaleOne() {
                                 <p className={'mom-top-title'}>Welfare & Closed Mall</p>
                                 <div className={'mom-top-cate-wrap'}>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#SAFETY</p>
                                     </div>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#SECURITY</p>
                                     </div>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#CONVENIENCE</p>
                                     </div>
                                 </div>
                             </div>
                             <div className={'mom-btm-wrapper'}>
                                 <div className={'mom-btm-img-wrapper'}>
-                                    <img src={'/mom-scale-one/2.jpg'} alt={'UBT'} />
+                                    <img src={'/mom-scale-one/2.png'} alt={'UBT'} />
                                 </div>
                                 <div className={'mom-btm-text-wrapper'}>
                                     <div className={'mom-btm-left-text-wrap'}>
@@ -264,19 +264,19 @@ export default function MomScaleOne() {
                                 <p className={'mom-top-title'}>Refurbish & offline stores</p>
                                 <div className={'mom-top-cate-wrap'}>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#ECO-FRIENDLY</p>
                                     </div>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#QUALITY ASSURANCE</p>
                                     </div>
                                     <div className={'mom-top-cate-unit'}>
-                                        <p>Growth Partner</p>
+                                        <p>#COST-EFFECTIVENESS</p>
                                     </div>
                                 </div>
                             </div>
                             <div className={'mom-btm-wrapper'}>
                                 <div className={'mom-btm-img-wrapper'}>
-                                    <img src={'/mom-scale-one/3.jpg'} alt={'UBT'} />
+                                    <img src={'/mom-scale-one/3.png'} alt={'UBT'} />
                                 </div>
                                 <div className={'mom-btm-text-wrapper'}>
                                     <div className={'mom-btm-left-text-wrap'}>

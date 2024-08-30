@@ -37,7 +37,7 @@ export default function MomMainUp() {
                     </div>
                 </div>
                 <div className={'mom-main-bg-wrapper'}>
-                    <video src={'/mom-main-up/video4.mp4'} loop muted playsInline autoPlay />
+                    <video src={'/mom-main-up/mainvid.mp4'} loop muted playsInline autoPlay />
                 </div>
                 <div className={'mom-main-btm-text-wrapper'}>
                     <div className={'mom-btm-left-text-wrap'}>
@@ -64,7 +64,7 @@ export default function MomMainUp() {
                     </div>
                     <div className={'btm-right-video'}>
                         <div className={'btm-video-wrapper'}>
-                            <video src={'/mom-main-up/video4.mp4'} loop muted playsInline autoPlay />
+                            <video src={'/mom-main-up/mainvid.mp4'} loop muted playsInline autoPlay />
                         </div>
                         <p className={'btm-right-video-text'}>Main Product</p>
                         <div className={'btm-discover-btn'}>

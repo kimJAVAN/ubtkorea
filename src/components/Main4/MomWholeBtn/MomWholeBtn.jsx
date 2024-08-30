@@ -31,7 +31,7 @@ export default function MomWholeBtn(props) {
                     </div>
                 </div>
                 <div className={'mom-right-btn'}></div>
-                <div className={'mom-arrow'}><GoArrowUpRight /></div>
+                <div className={`mom-arrow ${btnName === 'Learn more' || btnName === 'Contact Us' && 'learn-more'}`}><GoArrowUpRight /></div>
             </div>
         </div>
     )

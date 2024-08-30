@@ -89,7 +89,7 @@ const MoveChangeText = () => {
                     <div className={'move-bottom-unit'}>
                         <div className={'move-front-text'}>
                             <p>A01</p>
-                            <p>Technologies</p>
+                            <p>Product</p>
                             <p><MdOutlineArrowOutward/></p>
                         </div>
                         <div className={'move-bottom-img-wrapper'}>
@@ -99,8 +99,8 @@ const MoveChangeText = () => {
                     </div>
                     <div className={'move-bottom-unit'}>
                         <div className={'move-front-text'}>
-                            <p>A01</p>
-                            <p>Technologies</p>
+                            <p>A02</p>
+                            <p>Product</p>
                             <p><MdOutlineArrowOutward/></p>
                         </div>
                         <div className={'move-bottom-img-wrapper'}>
@@ -110,8 +110,8 @@ const MoveChangeText = () => {
                     </div>
                     <div className={'move-bottom-unit'}>
                         <div className={'move-front-text'}>
-                            <p>A01</p>
-                            <p>Technologies</p>
+                            <p>A03</p>
+                            <p>Product</p>
                             <p><MdOutlineArrowOutward/></p>
                         </div>
                         <div className={'move-bottom-img-wrapper'}>
@@ -121,8 +121,8 @@ const MoveChangeText = () => {
                     </div>
                     <div className={'move-bottom-unit'}>
                         <div className={'move-front-text'}>
-                            <p>A01</p>
-                            <p>Technologies</p>
+                            <p>A04</p>
+                            <p>Product</p>
                             <p><MdOutlineArrowOutward/></p>
                         </div>
                         <div className={'move-bottom-img-wrapper'}>
@@ -132,8 +132,8 @@ const MoveChangeText = () => {
                     </div>
                     <div className={'move-bottom-unit'}>
                         <div className={'move-front-text'}>
-                            <p>A01</p>
-                            <p>Technologies</p>
+                            <p>A05</p>
+                            <p>Product</p>
                             <p><MdOutlineArrowOutward/></p>
                         </div>
                         <div className={'move-bottom-img-wrapper'}>
@@ -143,8 +143,8 @@ const MoveChangeText = () => {
                     </div>
                     <div className={'move-bottom-unit'}>
                         <div className={'move-front-text'}>
-                            <p>A01</p>
-                            <p>Technologies</p>
+                            <p>A06</p>
+                            <p>Product</p>
                             <p><MdOutlineArrowOutward/></p>
                         </div>
                         <div className={'move-bottom-img-wrapper'}>

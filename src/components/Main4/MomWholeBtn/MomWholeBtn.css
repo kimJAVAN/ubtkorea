@@ -41,6 +41,11 @@
     transform: translateY(-50%);
     transition: all .2s ease-in-out;
 }
+
+.mom-whole-btn .mom-arrow.learn-more{
+    right: 22px;
+}
+
 .mom-whole-btn:hover .mom-arrow{
    left: -16.5px;
 
