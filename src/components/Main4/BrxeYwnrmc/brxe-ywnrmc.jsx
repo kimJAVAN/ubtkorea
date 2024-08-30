@@ -103,10 +103,10 @@ return (
             <div className={'brxe-pasrwv smlet'}>
                 <div className={"a-box"}>
                 <NavLink to={""} className={"brxe-link"}>
-                    <MomWholeBtn name={'Get In Touch'}/>
+                    <MomWholeBtn name={'About Us'}/>
                 </NavLink>
                     <NavLink to={""} className={"brxe-link"}>
-                        <MomWholeBtn1 name={'Service'} color={'black'}/>
+                        <MomWholeBtn1 name={'Contact Us'} color={'black'}/>
                     </NavLink>
                 </div>
             </div>

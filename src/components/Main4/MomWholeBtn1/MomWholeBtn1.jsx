@@ -31,21 +31,25 @@ export default function MomWholeBtn1(props) {
                         <GoArrowRight/>
                     </div>
                 </div>
-                <div className={'mom-right-btn'}></div>
+                <div className={'mom-right-btn'}>
 
-                {color === 'black' ?
-                    <div className={`mom-arrow`}>
-                        <GoArrowUpRight
-                            style={{color: 'black'}}
-                        />
-                    </div>
-                    :
-                    <div className={`mom-arrow`}>
-                        <GoArrowUpRight
+                    {color === 'black' ?
+                        <div className={`mom-arrow`}>
+                            <GoArrowUpRight
+                                style={{color: 'black'}}
+                            />
+                        </div>
+                        :
+                        <div className={`mom-arrow`}>
+                            <GoArrowUpRight
 
-                        />
-                    </div>
-                }
+                            />
+                        </div>
+                    }
+
+                </div>
+
+
 
 
             </div>

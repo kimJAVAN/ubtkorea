@@ -26,6 +26,11 @@
     aspect-ratio: 1/1;
     border-radius: 50%;
     transition: all .2s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .mom-whole-btn:hover .mom-right-btn{
     height: 0;
@@ -36,15 +41,12 @@
 }
 .mom-whole-btn .mom-arrow{
     position: absolute;
-    right: 14px;
+    /*right: 14px;*/
     top: 55%;
     transform: translateY(-50%);
     transition: all .2s ease-in-out;
 }
 
-.mom-whole-btn .mom-arrow.learn-more{
-    right: 22px;
-}
 
 .mom-whole-btn:hover .mom-arrow{
    left: -16.5px;

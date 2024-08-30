@@ -20,13 +20,15 @@ export default function Main4Container(props) {
         <>
             <MomMainUp />
             <LineMovingSection />
+
+            <BrxeSection/>
+
             <MomScaleOne />
             <MomXScroll />
             <MoveChangeText />
             <MomCardsNews />
-            <MomHiddenSwiper />
-            <BrxeSection/>
             <BrxeYwnrmc/>
+            <MomHiddenSwiper />
             <MomLastSection />
             <Footer />
         </>

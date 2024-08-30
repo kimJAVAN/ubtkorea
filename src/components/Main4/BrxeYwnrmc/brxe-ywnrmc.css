@@ -30,15 +30,28 @@ flex-direction: column;
     color: #212121;
     font-size: 0.9vw;
     text-transform: uppercase;
-    font-family: "Gilroy";
+    font-family: 'Pretendard Variable', sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 13px;
     text-align: center;
 }
-
+.brxe-ywnrmc .rxe-ywnrmc-cover .top-txt.smlet{
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+    color: #212121;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    font-family: 'Pretendard Variable', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    padding-top: 3px;
+    padding-bottom: 13px;
+    text-align: center;
+}
 .brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container{
     width: 100%;
     align-items: flex-start;
@@ -51,11 +64,25 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 width: 20%;
+
+}
+.brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-list-box .brxe-persent:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -64px;
+    border-top-width: 3vw;
+    width: 0.5px;
+    height: 76%;
+    background-color: #d9d9d9;;
+    /*opacity: 0.5; */
 }
 .brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .brxe-list-box .brxe-persent{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 13px;
 }
 .brxe-ywnrmc .rxe-ywnrmc-cover .top-context{
     width: 100%;
@@ -65,14 +92,15 @@ width: 20%;
     align-self: center;
     text-align: center;
     text-transform: capitalize;
-    font-family: "Youth";
+
     font-weight: 600;
     font-size: 2.5vw;
-    font-style: normal;
-    line-height: 2.5vw;
+
+    line-height: 3vw;
     color: #212121;
     /*width: 60%;*/
     text-align: center;
+    font-family: 'Pretendard Variable', sans-serif;
 }
 .brxe-ywnrmc .rxe-ywnrmc-cover .brxe-container .numper{
     align-self: flex-end;
